@@ -1,0 +1,24 @@
+{
+  "name": "ai-threat-watch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "build": "npm run verify:content && astro check && astro build && node scripts/verify-output.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "verify:content": "node scripts/import-full-edition.mjs --check && node scripts/apply-capability-keypoints.mjs --check && node scripts/build-reading-presentation.mjs --check && node scripts/verify-edition.mjs && node --test scripts/editorial-integrity.test.mjs"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.2",
+    "@astrojs/mdx": "^8.0.1",
+    "astro": "^7.3.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "axe-core": "^4.13.0",
+    "typescript": "^6.0.3"
+  }
+}

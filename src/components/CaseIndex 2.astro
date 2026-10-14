@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import { type Case, caseTitle, directLabel, pagesLabel, statusLabel } from '../lib/content';
+import { caseHref } from '../lib/routes';
+interface Props { entries: Case[]; sections: { title_zh: string; title_en: string }[]; }
+const { entries, sections } = Astro.props;
+const topics = await getCollection('topics');
+const regions = [...new Set(entries.flatMap(e => e.data.regions || []).filter(x => x !== 'unknown'))].sort();
+const actors = [...new Set(entries.map(e => e.data.actor_type).filter((x): x is string => !!x && x !== 'unknown'))].sort();
+const unknown = (x?: string | null) => !x || x === 'unknown';
+---
+<section data-case-index>
+  <noscript><p class="status-note">目前停用 JavaScript；以下仍顯示完整案例列表。篩選功能需要啟用 JavaScript。</p></noscript>
+  <fieldset class="filters" data-filters hidden><legend>篩選案例</legend><div class="filter-grid">
+    <div><label for="filter-section">原報告章節</label><select id="filter-section" data-filter="section"><option value="">全部章節</option>{sections.map(s => <option value={s.title_en}>{s.title_zh}</option>)}</select></div>
+    <div><label for="filter-region">地區（資料標記）</label><select id="filter-region" data-filter="region"><option value="">全部地區</option>{regions.map(region => <option value={region}>{region}</option>)}<option value="unknown">未知／待核對</option></select></div>
+    <div><label for="filter-actor">行動者類型</label><select id="filter-actor" data-filter="actor"><option value="">全部類型</option>{actors.map(actor => <option value={actor}>{actor}</option>)}<option value="unknown">未知／待核對</option></select></div>
+    <div><label for="filter-taiwan">台灣相關性</label><select id="filter-taiwan" data-filter="taiwan"><option value="">全部</option><option value="direct">直接相關 Yes</option><option value="no">無直接相關 No</option><option value="analogous">已填類比價值</option><option value="unknown">直接相關性未知／待核對</option></select></div>
+    <div><label for="filter-deep">深度導讀</label><select id="filter-deep" data-filter="deep"><option value="">全部</option><option value="published">已有完整導讀</option><option value="selected">已選為第一階段深讀</option><option value="not-published">尚無完整導讀</option></select></div>
+    <div><label for="filter-topic">主題</label><select id="filter-topic" data-filter="topic"><option value="">全部主題</option>{topics.map(topic => <option value={topic.data.slug}>{topic.data.title}</option>)}<option value="unknown">主題尚未標記</option></select></div>
+  </div><div class="filter-actions"><p data-result-count role="status" aria-live="polite" aria-atomic="true">顯示 {entries.length} / {entries.length} 筆索引</p><button type="button" data-clear-filters>清除篩選</button></div></fieldset>
+  <p class="fine">地區標記不代表國家歸因；操作者、委託者、受益者與來源關係請見個別案例。未知資料不代表 No。</p>
+  <div class="case-grid">{entries.map(entry => {
+    const d = entry.data;
+    return <article class="case-card" data-case-card data-section={d.report.section} data-regions={JSON.stringify(d.regions?.length ? d.regions : ['unknown'])} data-actor={unknown(d.actor_type) ? 'unknown' : d.actor_type} data-taiwan={d.taiwan_relevance?.direct === true ? 'direct' : d.taiwan_relevance?.direct === false ? 'no' : 'unknown'} data-analogous={!unknown(d.taiwan_relevance?.analogous) ? 'yes' : 'no'} data-deep={d.deep_dive && d.status === 'published' ? 'published' : 'not-published'} data-selected={d.selected_for_deep_dive ? 'yes' : 'no'} data-topics={JSON.stringify(d.topics.length ? d.topics : ['unknown'])}>
+      <div><span class="badge">{d.case_unit === 'main' ? '主要案例' : '內嵌補充案例'}</span> <span class="fine">{d.id}</span></div>
+      <h2><a href={caseHref(d.report.report_id, d.slug)}>{caseTitle(entry)}</a></h2>
+      <p class="english" lang="en">{d.title_en || 'No standalone source heading (embedded supplemental case)'}</p>
+      <p>{d.summary_zh || '一句話摘要尚未提供。'}</p>
+      <dl class="metadata"><dt>章節</dt><dd>{sections.find(s => s.title_en === d.report.section)?.title_zh || d.report.section}</dd><dt>地區／行動者</dt><dd>{d.regions?.join('、') || '未知｜待核對'}／{d.actors?.operator || '待核對'}</dd><dt>AI 主要用途</dt><dd>{d.ai_scope?.performed?.join('；') || '待編輯者補入'}</dd><dt>台灣直接相關</dt><dd>{directLabel(d.taiwan_relevance?.direct)}</dd><dt>台灣類比價值</dt><dd>{d.taiwan_relevance?.analogous || '待編輯者評估'}</dd><dt>深度導讀</dt><dd>{statusLabel(d.status)}{d.selected_for_deep_dive && '；已選為深讀'}；{d.deep_dive ? '已有完整導讀' : '尚無完整導讀'}</dd><dt>原報告頁碼</dt><dd>{pagesLabel(d.report.pages)}</dd></dl>
+    </article>;
+  })}</div>
+  <p class="empty-state" data-empty-state hidden>目前沒有符合條件的案例。可使用「清除篩選」回到完整列表。</p>
+</section>
+<script>
+  import '../scripts/case-filters';
+</script>

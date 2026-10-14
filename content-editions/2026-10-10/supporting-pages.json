@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "fa81c325b54e8fc2312eb20193b521b95fb54468cd6fa9056fb6ab473bee41b9"
+    },
+    {
+      "path": "src/content/guides/identity-and-trust.md",
+      "sha256": "c011f994633355203c59501d01f0275f501e1fd05482eab6014266a0d79b313c"
+    },
+    {
+      "path": "src/content/guides/capability-and-outcome.md",
+      "sha256": "be15430a9cf13ec166ed99ae6b90f5e30494732649ec4e61ee285ec5d53adb8f"
+    },
+    {
+      "path": "src/content/guides/public-opinion.md",
+      "sha256": "cfaff4aa56dd8b81f2545a19073bf60462cf950b2a2794ade6c53ef75703bd7a"
+    },
+    {
+      "path": "src/content/guides/personal-data.md",
+      "sha256": "f7533df511c05b49e15323941021d3aa49923f7915cb0071f17219d614ac29d5"
+    }
+  ]
+}

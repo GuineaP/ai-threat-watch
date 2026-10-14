@@ -1,0 +1,664 @@
+{
+  "edition": "2026-10-10",
+  "source_sha256": "cdea01e84f61de63ad80eabaa949047290921eaa2bec738d401b06eef6adfb1c",
+  "articles": [
+    {
+      "id": "gtg-20006",
+      "title": "AI 持續協助入侵、整理失竊資料與修改工具",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "full_sha256": "95e39f1d742cc1cc108c2781498e3ca6a43e8d4b007d2441d5d771c289a63d3f",
+      "body_sha256": "a35e3aac914ce94c70fd747e90ba14ab60f0ad8f9f138507b74b3572bf2930c8",
+      "site_sha256": "cc34ddf5f221cd1da45c33ddb67c321258a97fddfe9d2939e8493e00317d1e32",
+      "summary_sha256": "d281540666bc8ce7fd8b3c6d8ed5a8df22f44bf7b7042bff59ed73cefb3b5962",
+      "prior_sha256": "34c3fcbf4d7584f83671d5fe6a7672e4c2fcdc64ae2ab86504de3c56ef32c5b4"
+    },
+    {
+      "id": "gtg-50014",
+      "title": "使用者借助 AI 竊取資料，再利用服務商權限攻擊客戶",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "full_sha256": "7e100927051f78e8d007a8d881c15e27ddecca042d10f33f7a2d694a7c44549a",
+      "body_sha256": "140f76052ea59d94891a4763360cc8b2d16c105020e362b59306608f94ec8c21",
+      "site_sha256": "f0d55675e4c8fb70a576e3f931582919aaf0ef6f9f52f797c0d5f47cc6c10954",
+      "summary_sha256": "27e444222f238713b1a541a4991e018b1b8f08cf11b309f0613f3c31574189d3",
+      "prior_sha256": "436bbe0ce609e0790a2181fe74a64eb4026d514fb5170a7e16f06825df3c813b"
+    },
+    {
+      "id": "gtg-10007",
+      "title": "人離開電腦後，AI 仍持續研究漏洞與整理資料",
+      "pages": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "full_sha256": "d62a82edde7cec08698d2b3563881f816ae78cb95538c3d5f1e8829d74e0d7c1",
+      "body_sha256": "6f66760bf0c9d6e47664789064676c8c448e2811ecbe48a1adda834177004400",
+      "site_sha256": "d7cbb9d9062b281e210f6a1d98d4ad99ed347fa7e0cfa3549bbb72d2c02b5e4e",
+      "summary_sha256": "c2184ea91663381f05ebc6893d8f31919b9ede083f8026a089fd690f1c31e75e",
+      "prior_sha256": "f26601866563761400b21de56e00163bbd6afe2efb31d000fb3ff151586c95d7"
+    },
+    {
+      "id": "gtg-50021",
+      "title": "假冒優惠 Claude 服務，還竊取並轉售客戶帳號資訊",
+      "pages": [
+        29
+      ],
+      "full_sha256": "abf3e4372b5f6e124ac1cbf6d629e1d15c03b4998fa448c859e2e3873f1bf766",
+      "body_sha256": "8d935d78541987e581a3b6eadc081ff8e149a233985963e11d0fb5ca518f2aa5",
+      "site_sha256": "a44b7e1ec880e8db883d3e6e58d1ba6ce889ead8875877894238167ff39fb174",
+      "summary_sha256": "dba169ca13ccfc610d66dfe32447780ede5b9d802d1b16c374bfe875566b349d",
+      "prior_sha256": "5ce0b39aab57fbe27fbc21e411e15d05f4a9ea268395a02bbd27785349ac94df"
+    },
+    {
+      "id": "gtg-50020",
+      "title": "使用者重用失竊 AI 金鑰，並讓多個 AI 程式協助攻擊",
+      "pages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "full_sha256": "804747791b57425e6602bab0199a0b9f8a199135446ff5b4e2ac4a2b5dd0e79c",
+      "body_sha256": "66d83309025308041a35a8b0ca653127a56130dcb401cb2e7b795bca0c08099c",
+      "site_sha256": "491366c5d1cdaa2722b61a4a7a98c93b4bc2057fbbfbf41b2113bc915e9ff9ad",
+      "summary_sha256": "d7fdc5588244815fc47652570c762575f94b1e96c2c9ff137b0cc2e095fb4c34",
+      "prior_sha256": "453794b505c9f2f79ff721b71683891192dd3314d9e94b1b6c1a4bece363a775"
+    },
+    {
+      "id": "gtg-50029",
+      "title": "AI 協助整合失竊與外洩資料，建立按姓名查找的平台",
+      "pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "full_sha256": "3b1bbe8f8d3c9a7dace9492ff31d9622dc5d3a09805114156d1b3d59d35ea606",
+      "body_sha256": "3e9d6f93d4627ddad7e96db47bf85645c017e72f2189b3b782e4ed56ad8d9519",
+      "site_sha256": "0a06bd381a85d4b4037947ccb7b51f9d821a904f4107076632279b897053d4ee",
+      "summary_sha256": "7e9644a8e34bdd1ff4ac09c92858abaff893318c6577966c9d4dc164b6652e55",
+      "prior_sha256": "8dadbf97836912802f50bc18636588896d5bc6fc94969a60ec4de958679fb605"
+    },
+    {
+      "id": "gtg-04001",
+      "title": "AI 協助親俄廣播製稿，讓外國宣傳披上本地媒體外觀",
+      "pages": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "full_sha256": "dcbfd1d4cf4eae77e1449dd80277abab40d28ad3ef21445ddbb90547caeac88c",
+      "body_sha256": "87474716d86ee283c3008b38cd0d3fb919e5f11e75f5ccfa06bd58d93f2a8c5c",
+      "site_sha256": "a54d7564ac1159655db52f3242f40f7f7ab4b4415e8d62d5525c1b64d2a1e92b",
+      "summary_sha256": "a3631f8370b0198f0e35db57514d313d19981b6b10d90059a7fe4a2db500e973",
+      "prior_sha256": "526f34c696152a53a295001f1a473ff6b064969bce1a235f515116a77e37321c"
+    },
+    {
+      "id": "gtg-54002",
+      "title": "AI 把同一則新聞改成不同立場，批次供稿給假媒體網站",
+      "pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "full_sha256": "8e56d1b1cecd80c24093e9b0ea0ec7aec29b91fbedcee9bb7c0c291525037b19",
+      "body_sha256": "5a635855e280a8b881c66e3c60f73a8473a2ccb38829284b9806f1d05703dc63",
+      "site_sha256": "98997ba6e8b2d75cb6ca51334eef4f9de97b14b192d54e156a956e86559c3c9d",
+      "summary_sha256": "07742646b3c7adb5b4063c18c8052ca91539e4d11f81b8cbf3532d16f03f0867",
+      "prior_sha256": "ae9725b9a4448f3859f6893ce41feefb40dd24324a41d7838cd81def6339f0dc"
+    },
+    {
+      "id": "gtg-84005",
+      "title": "AI 協助建立政治操作平台，分析選民、管理假帳號並製稿",
+      "pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "full_sha256": "3c773e2e9f974f64c5e044336c4752fda06536a73b66a68e698d8a65d0cec44e",
+      "body_sha256": "513efea77cc06839b4f1121ee9af1000ac0ed270959f23fea60514886674c47d",
+      "site_sha256": "376e16d0885607b521c338f7c9616b9cb63600735cd59dd654829145bf104a61",
+      "summary_sha256": "105fc01dd1e78d4ea348321bd938182cb14f515de1915022633ab59d702440e4",
+      "prior_sha256": "b72dea74579f9584b37a68e4d801b795284a7bee2476faca7207ede6a9b17b20"
+    },
+    {
+      "id": "gtg-24015",
+      "title": "AI 把新聞材料改成多語文稿、字幕與旁白稿",
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "full_sha256": "079177f6140201cfbccfc1fc6dc9358bdad35a4003354291b253010ae795989d",
+      "body_sha256": "272163da0848fc3d76c7bfbec2215bcfbfc158639a0ca948262774c5bfd9ef87",
+      "site_sha256": "2503612a7b3b54b14d7f849c0f52a0361e740266dd426554ff12f8c820b232d1",
+      "summary_sha256": "c1a4a80c4944d81c347ef03e0a9d6170c32d3a1b02f411634cffd42dafc4786c",
+      "prior_sha256": "f6a17628101067e29d58f121ba79834e36d6a15eefa0acda0045bc6bca50aee2"
+    },
+    {
+      "id": "gtg-34001",
+      "title": "AI 製作多語宣傳，也把企畫整理成可反覆使用的工作手冊",
+      "pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "full_sha256": "cce5b1007e1f59a955efa0c141f79d0a891044be0993943bf71a08826d009dcb",
+      "body_sha256": "b9a9fb4bb5f60175aa6174c88545905601a920f6e44e98b62a6edfb6e4ae7f8f",
+      "site_sha256": "fa21a3f607ef6319aefbe3a10348f1450417edd915410c4b873535dccb1b0e26",
+      "summary_sha256": "61102a6ddcb591503cb60feffe8f6784085888a04ed79db68b0b1efed733ff87",
+      "prior_sha256": "64a0ed69f7453a68c2c88c5b8ac09758cec1779c16454b6a474703a67e4a6005"
+    },
+    {
+      "id": "gtg-54006",
+      "title": "AI 文稿接上影音與發布工具，批次製作不實政治內容",
+      "pages": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "full_sha256": "c64f25550fe54ff0b5fadcc4686f2e5b91a458313744e2592ce887a9040d922f",
+      "body_sha256": "76e57f377ad4ad454a1ecfc8b848cc57764c0b77ba2331d388ce1dd85864fdaa",
+      "site_sha256": "09705ae251a911341fc62bfeb44e09110957383823fbb3fef327c2f6e7fd366d",
+      "summary_sha256": "e9b9782419c8cd072eaaf0651ba5cd15c3c2a2e4b8d124c26f0c3c53e3d5c6ba",
+      "prior_sha256": "e1e83d4af1d0ee0373e8738475f7365fb8a9a39041f57f30626a17f1cac9f8f5"
+    },
+    {
+      "id": "gtg-84006",
+      "title": "AI 模仿運動者的語氣，以其名義接續對話",
+      "pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "full_sha256": "e7dacb561375f49ad43abc304d0932a6e0f844b5e9efbd4f31431879df29a9e6",
+      "body_sha256": "41013cdddd32a15279a7745b3b0a433c20defb1e9f31b3876497aeaf03bf9bb5",
+      "site_sha256": "966584e870a7901d1b3c852327e3f74361615bc6e5a00ca2d8a60098bf280c88",
+      "summary_sha256": "a26b2cd13a7d28429448d99c0249a05c8fd9412468b7003fb890b7d0886c9c7b",
+      "prior_sha256": "e2ee2c5b539210c89670dac15f4cb3cb0d288063bf9722e0a194cb6dcbf4c4e8"
+    },
+    {
+      "id": "gtg-54004",
+      "title": "一套政治要求，AI 每批產出五十則不同寫法的貼文",
+      "pages": [
+        75,
+        76,
+        77
+      ],
+      "full_sha256": "4be2adc3fc0d2ff1266049aa40652fa060a5fb95e3b886232a581fdadbac1e65",
+      "body_sha256": "a2b6cf89001bd1a4bc6d5b3c79f17835cedc29df4bae3a6f0585ee85d99bf3f9",
+      "site_sha256": "e7bd6e1e6026b2236afe0b58d822304e0a24c4505a10368b5d2acb3d7e7b5769",
+      "summary_sha256": "ccc6e14211c101a4b3b95f4934ffab8f632c4247ca5dce580c9a1aa0ccd40dde",
+      "prior_sha256": "a9f298162f64ee60bbb7a1b154ab5c86fe199d5a97b52367564050abe96edd95"
+    },
+    {
+      "id": "gtg-84002",
+      "title": "AI 協助製作人權報告、人物檔案與證詞，部分材料冒用團體身分",
+      "pages": [
+        78,
+        79,
+        80
+      ],
+      "full_sha256": "98a8030b68af0ec2e0ea6e64d38b4f7142cdaddcf29e0285d22c36f5f742b988",
+      "body_sha256": "3577451cf30a753986325de17463a1ac7d5a688214d26c9329aa2c361b229ef1",
+      "site_sha256": "c1440268b0a6b4f21de253e4b67b21b02c17f50f88431c9ba63332bdfcdc8a35",
+      "summary_sha256": "945e418fc840891e6fda7cac5ced630ac546a86222d29a7509979d9096106842",
+      "prior_sha256": "deb42b2a393120aa06cec7f942f636a6d3363d05878680f3d1ac70707fb008b6"
+    },
+    {
+      "id": "gtg-54009",
+      "title": "AI把社群貼文整理成人物標籤與政治傾向評分",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "full_sha256": "ff13c55e773cf1a0837391986c85cea7e8cdfd3fbc2c97df9ba9ff7dc0afc19d",
+      "body_sha256": "938f8e821e8e4ffe240084513075afe950e3d158cbfc03ea3f2f7a50cd8bef15",
+      "site_sha256": "29256b5385b57dd0a6309addea712913f707e9f6b9e5d02cdf9c8a888e0dc9af",
+      "summary_sha256": "06e0d6d0b3272fa7ce057b9f0d67bec2456bf9bc41200e4038946e08fe34db78",
+      "prior_sha256": "438069d11f271f50e9954c747581eb9263cbab56f38f5fdf08832dc96654ad50"
+    },
+    {
+      "id": "gtg-14010",
+      "title": "不會阿拉伯語的使用者，靠AI翻譯持續接觸情報對象",
+      "pages": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "full_sha256": "721780f03cdb01e9f3ed40d461ab97c85109540c507c7b4a6a81c5dce31170d1",
+      "body_sha256": "c48d5101f56738c49a8248fe7ecdf25fd12f6e8fdebcf3a7ed96a793900e34c1",
+      "site_sha256": "598407774e7f8460b45fa51bdd74a56ead367cdf97462e9cbd1cf7787580f02b",
+      "summary_sha256": "9a07588973da0d6fab4c2e9c1cb6baee47703c6276694ab87bcfab8885d9f2a0",
+      "prior_sha256": "9eef6794945ce45eb6681e3dd492f50df877ff2e8e434a546045c531f4e044ef"
+    },
+    {
+      "id": "gtg-14020",
+      "title": "AI協助彙整台灣教會領導層在不同平台的資料",
+      "pages": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "full_sha256": "1348f106a910c5dfac7adb739d8e7dc4f09d023f8445eae060c009e63672cead",
+      "body_sha256": "419d1d38aeed43baa5e6ffbedf3ed97c3f16719ffa85a62848d37dd37fcd9297",
+      "site_sha256": "f4ef0fec3529cdd1fcb6e25eb10567f65deacad707d1574934ffe306022e5fb4",
+      "summary_sha256": "7d7d19d4ce4a6b5f1f120ea30b33b9cfd85914e0ffb979885ca28f759561b9e2",
+      "prior_sha256": "188e2ef956b4759ef04ba40bd8e50c2ec8cd876c7f5beb026eb72481d389574a"
+    },
+    {
+      "id": "gtg-14021",
+      "title": "AI協助地方監控工作，撰寫日報、人物管控建議與內部手冊",
+      "pages": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "full_sha256": "b0bb77ad4c9e510ac495d78dcefe0ce969279272d104065a9015dd79462c5b68",
+      "body_sha256": "47ed3bda19d713a08f06a38c1b6544a9d51cc4eea47bfc5bb6aabcf3a786f1a9",
+      "site_sha256": "99a6cb30dc5c555af6c79f5d5621a6760f139911c860e1b6325993cc8fd4ff57",
+      "summary_sha256": "222f5c4b641f2c1f64bd0c581bc21fed38b4b11103dd6e459ef54fff3daf3293",
+      "prior_sha256": "2066396cb1129d542bc2f8d6f71ae63970f7eaeb06595f3d0eb99dde9328d004"
+    },
+    {
+      "id": "gtg-14022",
+      "title": "AI按政府文件格式，改寫台灣新聞與社群內容",
+      "pages": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "full_sha256": "6a2fb13bd98fe1559f9b1367088c973dbaec679c65cfa46a3d0bf2a9d3019de8",
+      "body_sha256": "0230d25f145aba4f3c8f4e1a4b120e291e22f9c0b25d48f3f6f6ddc9c21c9771",
+      "site_sha256": "167f1e437d583ed91a8061edb83f3d06b0d87286750612523ee661c36e6b6414",
+      "summary_sha256": "e105f899778eade15eb0c4f2e256d7d5e2c2ee5a9deb35877fef90420e9c6d85",
+      "prior_sha256": "1f44801d1793da6f15a2f1d310f7add032ac7bb9406377a4c6d0c3f1f30a5098"
+    },
+    {
+      "id": "gtg-34007",
+      "title": "AI協助開發監控工具，接進既有人物管理系統",
+      "pages": [
+        101,
+        102,
+        103
+      ],
+      "full_sha256": "bd03dfafaddb76649a9437587deb242bcc6455102cd5e7242c1db9f6bf23696e",
+      "body_sha256": "6547e314aa94bb868e20ad066880f83ff125d22d8b7ef47c63c567232fb2d1e4",
+      "site_sha256": "54ae27c1602dc7c2fdf594ed711f2463d6c51138ff016dfb312f93b45f4b8041",
+      "summary_sha256": "3d844e1877417e2f503e5a5024380a6fd364c93199807722c4b902bad893f502",
+      "prior_sha256": "a86ddcdfe62949e65ad51ea020a7d8af8580c05384fd9e0158ede5b7ededb9a8"
+    },
+    {
+      "id": "gtg-50027",
+      "title": "AI協助建置監控平台，完成後由本機模型持續運作",
+      "pages": [
+        103,
+        104,
+        105
+      ],
+      "full_sha256": "cb92281421c178ba4e885d8b827b08d4816e4eaf422bf20571b972a4917ffc45",
+      "body_sha256": "50fe3992432195fda4d1702ee445dc1b01e10e9995fcc2ee5045dc777618c261",
+      "site_sha256": "4fbe30026b7c55a660ecfe648c82d951eb1f1818d7fa35039b140d7f992d7854",
+      "summary_sha256": "7af52ef0d91ea0c355a33928c11f3f0e52b5614e245baaa52722cb9c34e19724",
+      "prior_sha256": "6acd46a4cf50453a935c30505f3fa5583ccfae8a91e15907b76d747c083c4fe3"
+    },
+    {
+      "id": "gtg-30004",
+      "title": "AI整理公開人物資料，也協助修改惡意程式",
+      "pages": [
+        105
+      ],
+      "full_sha256": "b6f836bddf7a245ee05f162ae179bec3c1fdfd6ef949d6b42e036b3d33527c2d",
+      "body_sha256": "14cc6a43954fac0d7f5d428ca9cc10c0129b08f571cb0674dd1009c183d977fc",
+      "site_sha256": "892666878a22d8f79a5fcc151ae9ff4de7443f6792f50f96e879453675c49dea",
+      "summary_sha256": "c899baa453a4977f779a8e1cbfca070e50959f321b2fef6fd552a01e4e717908",
+      "prior_sha256": "1cc66f3cb6aad7dee6151416fa79fc2675779f6cff32a47a78f45ebfc86ddac3"
+    },
+    {
+      "id": "gtg-30005",
+      "title": "AI用公開資料協助海軍目標研究，同帳號另做監控軟體開發",
+      "pages": [
+        106,
+        107
+      ],
+      "full_sha256": "8cbe5aeb95adcd4e7e1d493284a8362ca52acd56f72caf8951cfbba1f462124c",
+      "body_sha256": "4602f0409d0ab1a12e46b2b07f839891e231367050213ec7b2c1ae2d425d9397",
+      "site_sha256": "1d5a8e14604ece20a34672d7cd677a75fab9232279322f247103aeaf3543345a",
+      "summary_sha256": "9cf961a55b61841fbf0f92e9c28c65a435e70888a8241193768e9f786ba990d9",
+      "prior_sha256": "34f39542ab57326ddea1317a0ba865daf863d31164f13520bc64eb9732d04405"
+    },
+    {
+      "id": "gtg-30006",
+      "title": "監控工具被拆成一般開發任務，逐步交給AI處理",
+      "pages": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "full_sha256": "59e64fe15c15ff826c70ad7d556cda699ecc60420ac8c7438986ace0ee3247a4",
+      "body_sha256": "87a96368093b16e584ed40e0f645cbb7fdb7be8c5880cc03177f8a7546a73892",
+      "site_sha256": "b4642340e173c3f96e5938873edee392474befa25545baefe9d34b04efaaec7a",
+      "summary_sha256": "5780ce155e5c5cdc758a53469138ef07fe7577edc4e8199dfc4f484ea6eac957",
+      "prior_sha256": "750bc1696696040263cd4ae40198a8a6cbbe296ec26b2ab796312c71fbae6b7c"
+    },
+    {
+      "id": "gtg-87001",
+      "title": "AI參與導引武器軟體、模擬與故障分析",
+      "pages": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "full_sha256": "b6c580a114eb6012977bcb27946c4ce1c0fe35a8e9ac2d7c48b8653cc0e1e4d0",
+      "body_sha256": "7c09a08224ff3dcdb5bc441d958c31f532a2f377d0dcfeb8bb1953e823959e06",
+      "site_sha256": "1a22748746850d87745f69d1955bdf1df88223bbd85a4b1b33dc470562b0d319",
+      "summary_sha256": "a399b2d1cd59ce7d57c3842d01b9dcd96d2fd805e681a6edd85865ea5d892ee2",
+      "prior_sha256": "d352979a6e8cb9e98adec741d5f9f8fe77b46e9054af836e58912df2594cea10"
+    },
+    {
+      "id": "gtg-17001",
+      "title": "AI反覆撰寫、審稿與修訂軍事系統提案",
+      "pages": [
+        115,
+        116
+      ],
+      "full_sha256": "6be868408df8a505c0a344bf945ee14e668ef6aec6c52c7c383e8f1c748f6b15",
+      "body_sha256": "cbaa3d51c5f0cc939836cd6e1a3307c9cb23b9005c27819dc020b4a9ff248783",
+      "site_sha256": "f3b07e1fa83ece6a56fdc1ea99f3bbb38c22e610e1b00ec33adb67bb304609fe",
+      "summary_sha256": "d6faee09599fd8eb85637176a51f98fc2c53f1674091e50ebfca94ad0442ac17",
+      "prior_sha256": "6a48c26b8ec8eaf64de864b441db4faed132d2407f672e4729fb39ebaded97ae"
+    },
+    {
+      "id": "gtg-27005",
+      "title": "小型團隊用AI開發自主無人機群軟體，進行模擬與開發板測試",
+      "pages": [
+        117,
+        118,
+        119
+      ],
+      "full_sha256": "2b956797761bff20da10a2bc53d8ed8bfcc24b8bb846c51ef20ac28c5fcbb9ed",
+      "body_sha256": "4d7cc7b957d169d6603f4611c403a250f83b7a15474d1544a88b3e6e883f00d6",
+      "site_sha256": "aee7d7a5ec2563f0caa8572625c6542cc2dc6aca7b5c79ad7f26d97a64a5c964",
+      "summary_sha256": "b1830c68d8b7b364ba92b9b355be3da95cb0f3485bf97c9eff6976ba3ff6285f",
+      "prior_sha256": "c01058592d4add9c2d2ddbea1ebbbc5bed8f7b588e44fefd309144130fc6517a"
+    },
+    {
+      "id": "gtg-17002",
+      "title": "AI協助開發電子戰軟體，把台灣設施放進模擬情境",
+      "pages": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "full_sha256": "bc6e297059a37f16d6434ec376c2c560574513f3acd34c6a26a8bfbb627e63e2",
+      "body_sha256": "21a2392685921c876a23fca4979235c0dbba79572cf7b85e76bcbcae881b0c66",
+      "site_sha256": "4b35c8c5009a3c958f2268612ad3e9e6e20501af683d60c8ec329b1b9a1c78d5",
+      "summary_sha256": "a9ff1f74fd01c2be17a0f90f892d5106e406245ce2421d915532a8670606b79a",
+      "prior_sha256": "bbdef12ec275e1d6990391da13874485544d1e7ff1e6826e1d4e2d51df319d2b"
+    },
+    {
+      "id": "gtg-27006",
+      "title": "AI協助跨境採購文件，也串接資料整理工具",
+      "pages": [
+        123,
+        124,
+        125,
+        126
+      ],
+      "full_sha256": "9235d73ec9b1fbc672c12e79cc8cc09c69f415a317f524ab0af4fcce5dd2af7e",
+      "body_sha256": "d671c50769be719b6e02294c5ec3c7b6d321d6c367598e06f5d5d6aba78ccd3a",
+      "site_sha256": "afc0ed1350d181ddf93365f0d1da3f0e82e1ec2c4d132c34049858d61fb44e67",
+      "summary_sha256": "3f54f2d0e35307f887f24b3c629f3ab03dd6478c06327c6465d1cdfa49ff3342",
+      "prior_sha256": "e8e9cf54fc8ab9451f26fb597e2d3fe1d8eee57728ccb001fb08f02d6b5f079c"
+    },
+    {
+      "id": "gtg-17003",
+      "title": "AI協助整理公開武器資料，製作中文簡報與追蹤清單",
+      "pages": [
+        126,
+        127,
+        128
+      ],
+      "full_sha256": "d547c2c5760d5e685cc02b8da25897e5d0674e95e7d6a2f060dd79a7deca4c13",
+      "body_sha256": "394aa3192e30bd97f1867dc01f993a4a3027e3546a25a354ee3da0ae536ecb2b",
+      "site_sha256": "83b2a18e168d5720154618cc5d0bc2c0e5715b29d770b14fb1bc97c2af6d8ab6",
+      "summary_sha256": "97454ca4206c5209f96531646a82c435b769a46280dd6d7bc1d2a253ae3d2d57",
+      "prior_sha256": "21b2f8b04f2a6e05f12aee5609ed956110448dcd6f75cfcd261d033b687192c1"
+    },
+    {
+      "id": "biological-case-1",
+      "title": "AI轉接平台把研究請求交給不同模型，Claude協助程式與文稿",
+      "pages": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "full_sha256": "5d30c6f198848d70983e0adf9d8f0e308ce5d444dca0ff52eead25e878fcdcdd",
+      "body_sha256": "cb0d5b3ae404976a02582d7b2684d0079467b51e2e97594e89b7fc35d23c8e96",
+      "site_sha256": "1339b8bcede4aeebf9a1b19931b82c6809628eb86c8a988e246209821744cde0",
+      "summary_sha256": "7172274f41484aaff620dfd20c7a4c3d829343d44ba6ef41ddad7c968d35cb8c",
+      "prior_sha256": "99bc5ee9a9c597417bdd4a3c8ec26de83012b27c4f24220e46462355806ffbb8"
+    },
+    {
+      "id": "biological-case-2",
+      "title": "AI協助禽流感研究的文獻整理、規劃與寫作",
+      "pages": [
+        130,
+        133,
+        134,
+        135
+      ],
+      "full_sha256": "002d7df748598bef4ee4137adf397035c6c76935c110b57ee7e42ff1bd5f31da",
+      "body_sha256": "6a9266b9afc8b2a34ed1dd7c487a560a2cffd631e1edbe98f419bb13b430cd35",
+      "site_sha256": "94a645f944c929ef54dc42d9e144f5065b2fd4f52f2dbf3fcca086c2a59ec1dc",
+      "summary_sha256": "2d36a0876bf65d1111fd8cbb0236dd8c3f4f45172b1edc205ed5249d9ae30590",
+      "prior_sha256": "38bafdaa7baa162f84ce248098d883d5a5d1530b1564bf3062b873d67278c007"
+    },
+    {
+      "id": "biological-case-3",
+      "title": "Claude約一小時起草病毒研究經費申請書",
+      "pages": [
+        130,
+        135
+      ],
+      "full_sha256": "58b4d9cb7ecb2ebf3b98b96cc3243a58b88fbe7b5328ff31195c355178fa7044",
+      "body_sha256": "3550a775c9eabb42b44c26e25e1170351eeec65b4aa6000f7804559f88775f23",
+      "site_sha256": "f641fe279d05dbe4d84c52043341ffe5e255374533eb1bc05793768cfba117a7",
+      "summary_sha256": "e9eb51bfedb9f1a64568c9c866a1bc7db4d8185344642ce18461f0fb51666377",
+      "prior_sha256": "d5cb5be10e2e21fa2a478c7f5691943b44271cca6005845d618644e056aec5f6"
+    },
+    {
+      "id": "biological-case-4",
+      "title": "AI協助整理毒素資料，建立生成候選分子的計算流程",
+      "pages": [
+        130,
+        136,
+        137
+      ],
+      "full_sha256": "b23677d8cb3ae73f09524eb55acf9078bd8b97f493dfd329b404faf5be6bfd42",
+      "body_sha256": "ff3c26d32744c4843a3ee06eb1a7f8cfeaaa52da02774b1c9605178aa5eee151",
+      "site_sha256": "5b77d98efe460b9ee25059b50c49abc69c0fdccc8aa6d1212bddb6e565c45d24",
+      "summary_sha256": "a7a29e6b16b95594fd16ed1eb7825581f077d2c8757a4ef7923c706e909a988a",
+      "prior_sha256": "4c2383a3a710f0c3721b50fa2bc00b52c7aa129a4f42562a574b6d361131bfec"
+    },
+    {
+      "id": "biological-case-5",
+      "title": "AI協助研究與進度報告，研究者要求模糊描述研究對象",
+      "pages": [
+        130,
+        136,
+        137
+      ],
+      "full_sha256": "a3f2ea30628c2271c96dd3bb9974135f7aa03c91340491557b7598d2dc884fa7",
+      "body_sha256": "8a4839a0086234edbf695241b909359b6250724247d5f254864218acfaec8804",
+      "site_sha256": "b7c71bde2090a533eff9239a9b7b92d90704680b6551e5d549e1a295b0664bab",
+      "summary_sha256": "bda193f234db32f13176780cc2c083f6eca9702d480b79978913a95c3845688e",
+      "prior_sha256": "6885b09b4c7e00d939eda81acdb7272105ed4c4fc265028f00fcdc9b045a95bd"
+    },
+    {
+      "id": "gtg-15001",
+      "title": "AI人物持續聊天，真人補上視訊等互動",
+      "pages": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "full_sha256": "a75378366e37ec96f3848fba638edb8f702fbc9a2b1716d4addb72807e83201e",
+      "body_sha256": "1960a0cc73eecb965b55f82fe9a05f2fb81290848e4be8fea504c5fee6cac2cc",
+      "site_sha256": "102cd68f1450b689bf45ca9825dbab4fb5fe2a9a8ec9ebc60243abe906b7f0c1",
+      "summary_sha256": "8fd8a1cb65a1cdfd7196d52ec744d0a3c42539c99f28ecfd1279341b3b2dc0a5",
+      "prior_sha256": "3bfa1887f56107bdc0c30bf039c1244d77e23678a7cb8ab7e2a65de59a284a1b"
+    },
+    {
+      "id": "gtg-16005",
+      "title": "Anthropic指稱：阿里巴巴相關使用者大量取得Claude回答供訓練",
+      "pages": [
+        143,
+        144,
+        147,
+        148
+      ],
+      "full_sha256": "282ced9ba28cdace747c922266f897f2f4d9e52c896054958f94bd4af56d8cc2",
+      "body_sha256": "86a1173cd1b2614c237d2850422b28ecdc11e8d0e382c09f57fef9685c701fa1",
+      "site_sha256": "812fda0a1ede9391b163b10f6acead9805ada0fe38bd659ea76ee12a49a4d4eb",
+      "summary_sha256": "878fb22cd500c2379f8d5216a172b68b88356eeb1880447f3162bf689b94cd8b",
+      "prior_sha256": "4063d2b7fd1e1a152a231029bfba18419550f2b2ed1a4eee41d4c2deb4beb432"
+    },
+    {
+      "id": "gtg-16002",
+      "title": "Anthropic指稱：Kimi的部分請求轉由Claude回答",
+      "pages": [
+        148,
+        149
+      ],
+      "full_sha256": "0db0030cbbf97be3ea1e6657455d009962f7967bd61fefa0e86d8e5785134022",
+      "body_sha256": "7cb5953069e064e1e98573f6f54a02c363b1c746533da42f5b31b8fdcc5be960",
+      "site_sha256": "4e5caee22ab804dc357b574db9284e7f27468754c5959231a29d2295178add8e",
+      "summary_sha256": "26e4cc70197036e72fdbe2eabb7c307e0f8260eeabd7625c49140c8b64fbee3a",
+      "prior_sha256": "38abf3db112f866c8efc9b707bee772d398ed742bce7e47653449b1d19b06750"
+    },
+    {
+      "id": "gtg-16001",
+      "title": "Anthropic指稱：DeepSeek將部分程式工作請求轉送Claude",
+      "pages": [
+        149,
+        150
+      ],
+      "full_sha256": "209d7dfea25064c433d6e433596bca85b35b45a52722390638a178cbdf3f5b6d",
+      "body_sha256": "2906076481aded90561fb427e91d89502b4ef552b0e4e1df2c54b6a1355b92c8",
+      "site_sha256": "3a57df7bcd9f543d42d135e6bedfefe9033aa80339e3cb7d2e08c34b595dc3b8",
+      "summary_sha256": "ed9f462e6c99c35f88125132c4cbae586461cbc50b68827f4fb7eac7a381cf4d",
+      "prior_sha256": "1b2dd1f5317351f64635bec98ccc771ae6889c641c01f4bcbd612ec79e073510"
+    },
+    {
+      "id": "gtg-16006",
+      "title": "Anthropic指稱：智譜用Claude整理訓練資料、評量模型處理資安題的表現",
+      "pages": [
+        150,
+        151
+      ],
+      "full_sha256": "93475e50a73f76bb656ed188efdd601da39df1f9814a8d2d6ad921d20e6a6b3a",
+      "body_sha256": "7ff11c5839b7a10d4c8e06ae5d1fff507fdf15f26eb19c26fe61174ff1cafc00",
+      "site_sha256": "57c3fe843c8d6c26b2ff918832c13fac7918643fda040e61c9f8b87a91465d1b",
+      "summary_sha256": "dcbb884beaaceb8b93df0aedb9bc9e378896c0dfb8ebd54dd250da09112fc1b9",
+      "prior_sha256": "4287df2601c2f6e01456ef9628d0d61afba059c42e1b9fe88276c95af71cf2c0"
+    },
+    {
+      "id": "gtg-16008",
+      "title": "Anthropic指稱：小米將MiMo舊對話交給Claude重建訓練資料",
+      "pages": [
+        151,
+        152
+      ],
+      "full_sha256": "21c9f17e9564a247ef6b0a095a5d9ab702fc38df2c1491fb6ba3178c924ef741",
+      "body_sha256": "82d668ba45db66d5707e826942d173fa7ba6fccfbf96bb6f176ae66932a24371",
+      "site_sha256": "7ca6e502e5dc70d179e282f89126cab4acee35040b165313cb0353ae2e6b40c0",
+      "summary_sha256": "c545207839f529b89d398bae1fd6b9a731fbe566ccf2062e523a3b3c0e3c9c8b",
+      "prior_sha256": "32504630bc8df53f158bf7a67bff82e22bfd5734df2737f1d84f60d338026101"
+    },
+    {
+      "id": "gtg-16012",
+      "title": "Anthropic指稱：商湯購入第三方保存的Claude對話供訓練",
+      "pages": [
+        144,
+        152,
+        153
+      ],
+      "full_sha256": "8fa040255c3bfdfb15a96646c96eed5747a5fe7e01d2e34a0c6ecea666a47ead",
+      "body_sha256": "01dd8a4f2cee96fc2ef3e98ec45f3be82863d1f0d9318be164e3e8a39a8f3eef",
+      "site_sha256": "3c1541fd1270c9619cf5fa09cb4be4e3b2b344d005841340e8b6b870abac0406",
+      "summary_sha256": "6bd1c150a4b2d5aeab5e8bda397c1d30aae98360876ceb6f8d3f5b16648c2359",
+      "prior_sha256": "a49a73644bf1892b7e7ddb24a8d9cfca261692c446b85a37ef165662f0049611"
+    },
+    {
+      "id": "gtg-16003",
+      "title": "Anthropic指稱：MiniMax關聯轉接服務可能蒐集對話供訓練",
+      "pages": [
+        143,
+        144,
+        152,
+        153
+      ],
+      "full_sha256": "9af19f65a89d740c6f4cd1a6dd2202c3776a835de4ed23104ae418e98d7ac7ff",
+      "body_sha256": "f7a865a3fb8040cef43ab5138a9818ed148a3832634e77f630f46347093b9f57",
+      "site_sha256": "f9c8e9e446caac4125b06b899cad4e30ea6bb443a2888be9587aa56671b7ac29",
+      "summary_sha256": "ebaaf67013ba6bcf0a73ec13ee132647f082cad327e48ac46bcc59fc64d517ec",
+      "prior_sha256": "5effedab34c76a2d2595acff512ca9ef75eb7d7cfe0c476385d5ab5cde2635d2"
+    }
+  ]
+}

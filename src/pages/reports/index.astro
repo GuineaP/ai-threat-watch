@@ -1,0 +1,7 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { reportHref } from '../../lib/routes';
+const reports = await getCollection('reports');
+---
+<BaseLayout title="報告列表"><div class="wide"><header class="page-heading"><p class="eyebrow">報告</p><h1>從原始報告開始閱讀</h1><p>繁體中文深度導讀、案例索引與台灣及公民社會觀察。</p></header>{reports.map(report => <article class="report-card"><p class="eyebrow">{report.data.publisher} · {report.data.published_at}</p><h2><a href={reportHref(report.data.report_id)}>{report.data.title_zh}</a></h2><p lang="en">{report.data.title_en}</p><p>{report.data.main_case_count} 個主要案例單元＋{report.data.embedded_case_count} 個內嵌補充案例，共 {report.data.main_case_count + report.data.embedded_case_count} 筆索引。</p></article>)}</div></BaseLayout>

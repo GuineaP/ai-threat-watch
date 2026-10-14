@@ -1,0 +1,139 @@
+---
+{
+  "id": "CASE-ID",
+  "source_id": null,
+  "slug": "case-slug",
+  "title_zh": null,
+  "title_en": null,
+  "case_unit": "main",
+  "source_group": null,
+  "status": "placeholder",
+  "selected_for_deep_dive": false,
+  "deep_dive": false,
+  "report": {
+    "publisher": "發布機構",
+    "report_id": "report-id",
+    "section": "原報告章節",
+    "pages": null
+  },
+  "summary_zh": null,
+  "actor_type": null,
+  "topics": [],
+  "actors": {
+    "operator": null,
+    "commissioner": null,
+    "beneficiary": null
+  },
+  "regions": null,
+  "targets": null,
+  "relationships": {
+    "attribution_country": null,
+    "content_source_country": null,
+    "operator_location": null,
+    "target_country": null
+  },
+  "attribution": {
+    "observed": null,
+    "assessed": null,
+    "confidence": "unknown",
+    "not_established": null
+  },
+  "ai_scope": {
+    "performed": null,
+    "not_performed": null
+  },
+  "autonomy": {
+    "level": "unknown",
+    "human_roles": null
+  },
+  "uplift": {
+    "speed": {
+      "assessment": null,
+      "evidence": null
+    },
+    "scale": {
+      "assessment": null,
+      "evidence": null
+    },
+    "depth": {
+      "assessment": null,
+      "evidence": null
+    }
+  },
+  "safeguards": {
+    "refusals_observed": "unknown",
+    "refused_tasks": null,
+    "circumvention_observed": "unknown",
+    "residual_capability": null
+  },
+  "outcome": {
+    "confirmed": null,
+    "attempted": null,
+    "unknown": null
+  },
+  "reach": {
+    "observed": null,
+    "claimed": null,
+    "independently_verified": "unknown",
+    "breakout_scale": "unknown"
+  },
+  "taiwan_relevance": {
+    "direct": "unknown",
+    "analogous": null,
+    "editorial_analysis": null
+  },
+  "terms": [],
+  "sources": []
+}
+---
+
+import EvidenceBoundary from '../../../components/EvidenceBoundary.astro';
+import EditorObservation from '../../../components/EditorObservation.astro';
+import UpliftSummary from '../../../components/UpliftSummary.astro';
+import WhatIsThis from '../../../components/WhatIsThis.astro';
+import Term from '../../../components/Term.astro';
+
+## 一句話看懂
+
+待編輯者提供一句話摘要。
+
+## 發生了什麼？
+
+待編輯者提供完整正文與原報告引用。
+
+## AI 在這裡做了什麼？
+
+待編輯者列出原報告直接支持的 AI 用途。
+
+## AI 沒做什麼？
+
+待編輯者區分外部工具、人類工作與 AI 工作；未觀察到不等於已證明沒有發生。
+
+## AI 改變了什麼？
+
+<UpliftSummary uplift={frontmatter.uplift} />
+
+## 人類還在哪裡？
+
+待編輯者說明人類在目標設定、審查、執行與決策中的角色。
+
+## 安全措施有作用嗎？
+
+待編輯者補入拒絕、繞過方式、殘餘能力與封禁後仍可持續的部分。
+
+<EvidenceBoundary {...frontmatter.evidence_boundary} confidence={frontmatter.attribution?.confidence} />
+
+<EditorObservation text={frontmatter.taiwan_relevance?.editorial_analysis} />
+
+## 閱讀時要保留什麼？
+
+待編輯者補入觀測範圍、結果與可見度的限制。
+
+## 詞彙
+
+正文尚未提供，目前沒有已審訂的案例詞彙表。
+
+{/* 以下只驗證元件呈現，不構成案例研究內容；補入正文時移除測試說明。 */}
+<p className="fine">閱讀輔助元件測試：</p>
+<Term zh="代理型 AI" en="agentic AI" />
+<WhatIsThis title_zh="代理型 AI" title_en="agentic AI" slug="agentic-ai" />

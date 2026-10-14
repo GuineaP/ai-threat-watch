@@ -1,0 +1,7 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+const entry = (await getCollection('pages')).find(e => e.id === 'methodology')!;
+const { Content } = await render(entry);
+---
+<ArticleLayout title={entry.data.title}><Content /></ArticleLayout>

@@ -1,0 +1,27 @@
+---
+import '../styles/global.css';
+import { href } from '../lib/routes';
+interface Props { title: string; description?: string; }
+const { title, description = 'AI 威脅觀察｜繁體中文深度導讀、案例索引與台灣及公民社會觀察。讀懂，而不是逐字翻譯。有多少證據，就說多少話。' } = Astro.props;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+const links = [['/reports/', '報告'], ['/topics/', '主題'], ['/glossary/', '術語表'], ['/methodology/', '方法與編輯原則'], ['/about/', '關於']];
+---
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}｜AI 威脅觀察</title><meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta name="color-scheme" content="light" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <header class="site-header"><div class="header-inner">
+      <a class="brand" href={href('/')}><span class="brand-symbol" aria-hidden="true">閱</span><span>AI 威脅觀察<small>AI THREAT WATCH</small></span></a>
+      <nav aria-label="主要導覽">{links.map(([path, label]) => <a href={href(path)} aria-current={Astro.url.pathname.startsWith(href(path)) ? 'page' : undefined}>{label}</a>)}</nav>
+    </div></header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer"><div class="footer-inner"><p><strong>AI 威脅觀察</strong><br />讀懂，而不是逐字翻譯。有多少證據，就說多少話。</p><div><a href={href('/methodology/')}>AI 使用揭露與方法</a><a href={href('/license/')}>著作權與授權</a></div><p class="fine">這不是原發布機構的官方中文翻譯。AI 可能犯錯，重要資訊應回查原報告。</p></div></footer>
+  </body>
+</html>

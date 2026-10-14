@@ -1,0 +1,20 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { href } from '../lib/routes';
+---
+<ArticleLayout title="更正與回饋" eyebrow="一起把資訊說清楚"><p>若發現引用、歸因或語句需要修正，可先整理以下資訊。本頁不會自動傳送內容；正式聯絡窗口將由編者公開。</p>
+<form class="feedback-form" data-feedback><label for="feedback-case">案例編號或頁面</label><input id="feedback-case" name="case" placeholder="例如：GTG-14020" required /><label for="feedback-claim">需要更正的原句與原因</label><textarea id="feedback-claim" name="claim" required></textarea><label for="feedback-source">支持修正的來源與頁碼</label><textarea id="feedback-source" name="source" required></textarea><button type="submit" data-feedback-submit hidden>整理更正說明</button></form>
+<div class="feedback-output" data-feedback-output hidden><label for="feedback-text">可複製的更正說明</label><textarea id="feedback-text" readonly></textarea><button type="button" data-feedback-copy>複製說明</button><p class="fine" data-feedback-status role="status" aria-live="polite"></p></div>
+<noscript><p>可依上方三項資訊自行整理更正說明。</p></noscript>
+<h2>本版更新紀錄</h2><ul><li>2026-10-14：完成2026-10-10修訂版的44篇案例、四條導讀及首頁整合。釐清來源歸因、數字單位與成果範圍，保留來源內部矛盾及未解問題；原始版本與修改紀錄保留。</li><li>2026-10-09：44篇案例與四條導讀改為先說明 AI 已完成的工作，釐清使用者、工具、來源與目標的分工；32篇台灣觀點獨立呈現。精簡重複提醒，保留關鍵數字、歸因與成果限制。原版保留，未新增個案證據或正式發布。</li><li>2026-10-07：完成第一版本機預覽與閱讀檢查；手機優先顯示問題入口，補充名詞白話說明。未正式發布。</li><li>2026-10-05：網站接入10月4日版44篇正文，新增四條主題導讀、案例摘要與閱讀版面；官方 PDF 版本核對相同。這是呈現更新，不代表新增個案證據。</li><li>2026-10-04：44篇文章的編輯修訂日期，個別限制與來源頁碼保留於文末。</li></ul><p><a href={href('/methodology/')}>閱讀編輯與更正原則 →</a></p></ArticleLayout>
+<script>
+const form=document.querySelector<HTMLFormElement>('[data-feedback]');
+const box=document.querySelector<HTMLTextAreaElement>('#feedback-text');
+const panel=document.querySelector<HTMLElement>('[data-feedback-output]');
+const status=document.querySelector<HTMLElement>('[data-feedback-status]');
+const id=document.querySelector<HTMLInputElement>('#feedback-case');
+if(id)id.value=new URLSearchParams(location.search).get('case')||'';
+const submit=document.querySelector<HTMLButtonElement>('[data-feedback-submit]');if(submit)submit.hidden=false;
+form?.addEventListener('submit',e=>{e.preventDefault();const values=new FormData(form);if(box&&panel){box.value='案例或頁面：'+values.get('case')+'\n\n原句與原因：\n'+values.get('claim')+'\n\n支持來源與頁碼：\n'+values.get('source');panel.hidden=false;if(status)status.textContent='說明已整理，尚未傳送。';}});
+document.querySelector('[data-feedback-copy]')?.addEventListener('click',async()=>{if(!box)return;try{await navigator.clipboard.writeText(box.value);if(status)status.textContent='已複製，尚未傳送。';}catch{box.focus();box.select();if(status)status.textContent='請手動複製已選取的文字。';}});
+</script>

@@ -1,0 +1,5 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { href } from '../lib/routes';
+---
+<ArticleLayout title="找不到這一頁"><p>這個連結可能已變更，請從報告列表查找。</p><p><a href={href('/reports/')}>查看報告列表</a></p></ArticleLayout>

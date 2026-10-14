@@ -1,0 +1,14 @@
+---
+import { getCollection, render } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { href } from '../lib/routes';
+const entry=(await getCollection('pages')).find(e=>e.id==='about')!;
+const { Content }=await render(entry);
+---
+<ArticleLayout title="關於這份導讀與它的來源" eyebrow="關於與來源">
+<p>AI 威脅觀察是一份給台灣一般讀者的中文導讀。希望讀者能看懂事件、辨認證據界線，並討論 AI 已完成哪些工作，以及這些能力若被用於台灣可能帶來的風險。</p>
+<h2>來源看得見什麼？</h2><p>目前44篇條目都來自 Anthropic 的2026年9月報告。Anthropic 是 Claude 的開發商；報告主要透過自身服務與調查材料觀察活動，並挑出值得注意的案例。這不是所有 AI 風險的代表性抽樣。</p><p>供應商同時有商業位置，尤其涉及競爭企業的指控時，必須保留來源歸因。本站沒有獨立取得全部底層紀錄；「來源說它看見」不等於編者另行核實。</p><p><a href={href('/reports/')}>查看原始報告與版本 →</a></p>
+<h2>哪些是編者的判斷？</h2><p>中文整理、閱讀順序與對台討論是本站的編輯選擇。直接提到台灣的記載，與「若中國政府或受託單位使用」的推演分開；推演以案例呈現的具體能力為起點；重要前提與證據限制就近交代，不能寫成事件已發生。</p>
+<Content />
+<h2>AI 協作與更正</h2><p>本專案使用生成式 AI 協助整理、翻譯、初稿與網站製作。模型之間互相同意，不等於新增證據。重要主張仍需回到來源；對外發布與立場由編者負責。</p><div class="text-links"><a href={href('/methodology/')}>閱讀編輯方法</a><a href={href('/corrections/')}>更正與回饋</a><a href={href('/license/')}>著作權說明</a></div>
+</ArticleLayout>

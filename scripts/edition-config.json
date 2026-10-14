@@ -1,0 +1,9 @@
+{
+  "edition": "2026-10-10",
+  "directory": "content-editions/2026-10-10",
+  "workspace_mirror": "../editorial-audit/independent-copyedit-2026-10-10",
+  "source_sha256": "cdea01e84f61de63ad80eabaa949047290921eaa2bec738d401b06eef6adfb1c",
+  "pdf_page_count": 154,
+  "article_count": 44,
+  "report_id": "anthropic-2026-09"
+}

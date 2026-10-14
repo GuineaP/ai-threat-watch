@@ -1,0 +1,7 @@
+---
+import type { Case } from '../lib/content';
+interface Props { uplift?: Case['data']['uplift']; }
+const { uplift } = Astro.props;
+const dimensions = [['speed', '速度', 'Speed'], ['scale', '規模', 'Scale'], ['depth', '深度', 'Depth']] as const;
+---
+<div class="uplift-grid">{dimensions.map(([key, zh, en]) => <div><h3>{zh} <span class="fine" lang="en">{en}</span></h3><p>{uplift?.[key]?.assessment || '評估尚未提供。'}</p>{uplift?.[key]?.evidence?.length ? <ul>{uplift[key]!.evidence!.map(item => <li>{item}</li>)}</ul> : <p class="fine">支持這項評估的證據待補。</p>}</div>)}</div>

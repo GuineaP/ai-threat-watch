@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { href } from '../lib/routes';
+interface Props { title: string; description?: string; }
+const { title, description = '從生活問題讀懂 AI 風險。看事件、AI 的工作、成果界線與原始來源。' } = Astro.props;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+const links = [['/guides/', '從這裡開始'], ['/reports/anthropic-2026-09/cases/', '案例庫'], ['/about/', '關於與來源']];
+---
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}｜AI 威脅觀察</title><meta name="description" content={description} />
+  <meta property="og:title" content={title + '｜AI 威脅觀察'} /><meta property="og:description" content={description} /><meta property="og:type" content="article" />
+  <link rel="icon" type="image/svg+xml" href={href('/favicon.svg')} />
+  {canonical && <link rel="canonical" href={canonical} />}
+  <meta name="color-scheme" content="light" />
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href={href('/')}><span class="brand-symbol" aria-hidden="true">閱</span><span>AI 威脅觀察<small>AI THREAT WATCH</small></span></a>
+    <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" hidden>選單</button>
+    <nav id="site-nav" aria-label="主要導覽">{links.map(([path,label]) => <a href={href(path)} aria-current={Astro.url.pathname.startsWith(href(path)) ? 'page' : undefined}>{label}</a>)}</nav>
+  </div></header>
+  <main id="main" tabindex="-1"><slot /></main>
+  <footer class="site-footer"><div class="footer-inner">
+    <div><a class="footer-brand" href={href('/')}>AI 威脅觀察</a><p>有多少證據，就說多少話。</p></div>
+    <nav aria-label="頁尾導覽"><a href={href('/reports/')}>原始報告</a><a href={href('/methodology/')}>編輯與 AI 使用</a><a href={href('/corrections/')}>更正與回饋</a><a href={href('/license/')}>著作權</a></nav>
+    <p class="fine footer-disclosure">本站為中文導讀與評論，並非原機構官方翻譯。來源觀察、來源評估與編者推演，請分開判斷。</p>
+  </div></footer>
+</body>
+</html>
+<script>
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const nav = document.querySelector<HTMLElement>('#site-nav');
+  if (toggle && nav) {
+    toggle.hidden = false;
+    document.documentElement.classList.add('menu-ready');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      nav.classList.toggle('is-open', expanded);
+    });
+    nav.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { toggle.setAttribute('aria-expanded','false'); nav.classList.remove('is-open'); toggle.focus(); }
+    });
+  }
+</script>

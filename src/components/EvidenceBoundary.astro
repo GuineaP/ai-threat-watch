@@ -1,0 +1,11 @@
+---
+interface Props { known?: string[] | null; report_assessment?: string[] | null; reasonable_questions?: string[] | null; not_established?: string[] | null; confidence?: string | null; }
+const { known, report_assessment, reasonable_questions, not_established, confidence } = Astro.props;
+const levels = [
+  ['我們知道的', known, '報告直接觀察或資料直接支持的事情。'],
+  ['報告怎麼判斷', report_assessment, '原發布機構的分析、歸因及信心水準。'],
+  ['合理會產生的懷疑', reasonable_questions, '目前跡象可以提出的問題；這不是結論。'],
+  ['目前還不能當成事實的部分', not_established, '缺乏哪些資訊，以及需要哪些新證據。'],
+] as const;
+---
+<section class="evidence" aria-label="我們手上的證據可以把話說到哪裡？"><h2 id="evidence-boundary">我們手上的證據可以把話說到哪裡？</h2>{levels.map(([label, items, prompt], i) => <div class="evidence-level"><h3>{label}</h3>{i === 1 && confidence && confidence !== 'unknown' && <p class="fine">原報告信心水準：<span lang="en">{confidence}</span></p>}{items?.length ? <ul>{items.map(item => <li>{item}</li>)}</ul> : <p class="fine">待編輯者補入：{prompt}</p>}</div>)}<p class="fine">「尚無足夠證據」不等於「已經證明不存在」；「不能排除」也不構成「這件事情很可能是真的」的證據。</p></section>

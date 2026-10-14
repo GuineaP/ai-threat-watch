@@ -1,0 +1,26 @@
+---
+import { type Case, caseTitle } from '../lib/content';
+import { caseHref } from '../lib/routes';
+import { readingTopic, readingTopics } from '../lib/reading';
+interface Props { entries: Case[]; sections?: { title_zh: string; title_en: string }[]; }
+const { entries } = Astro.props;
+---
+<section data-case-index>
+  <fieldset class="filters" data-filters hidden><legend>找你想讀的案例</legend><div class="filter-grid">
+    <div class="search-field"><label for="filter-search">搜尋標題、開頭或案例編號</label><input type="search" id="filter-search" data-filter="q" placeholder="例如：貼文、人物資料、GTG-14020" /></div>
+    <div><label for="filter-topic">主題</label><select id="filter-topic" data-filter="topic"><option value="">全部主題</option>{readingTopics.map(t=><option value={t.value}>{t.label}</option>)}</select></div>
+    <div><label for="filter-taiwan">與台灣的關係</label><select id="filter-taiwan" data-filter="taiwan"><option value="">全部案例</option><option value="direct">報告明確提到台灣</option><option value="discussion">有編者對台討論</option></select></div>
+  </div><div class="filter-actions"><p data-result-count role="status" aria-live="polite" aria-atomic="true">找到 {entries.length} 篇</p><button type="button" data-clear-filters>清除條件</button></div></fieldset>
+  <noscript><p class="status-note">以下是完整案例列表。搜尋與篩選需啟用 JavaScript；所有正文與來源仍可閱讀。</p></noscript>
+  <div class="case-grid">{entries.map(entry => {
+    const d=entry.data; const topic=readingTopic(entry);
+    const bodyLead=(entry.body||'').trim().split(/\n\s*\n/)[0];
+    return <article class="case-card" data-case-card data-topic={topic.value} data-direct={d.taiwan_relevance?.direct===true?'yes':'no'} data-discussion={d.taiwan_relevance?.editorial_analysis?'yes':'no'} data-search={[d.id,d.title_zh,bodyLead].join(' ').toLocaleLowerCase()}>
+      <div class="card-topline"><span>{topic.label}</span>{d.taiwan_relevance?.direct===true ? <span class="relation-label">報告提到台灣</span> : d.taiwan_relevance?.editorial_analysis ? <span class="relation-label">有編者對台討論</span> : null}</div>
+      <h2><a data-case-link href={caseHref(d.report.report_id,d.slug)}>{caseTitle(entry)}</a></h2><p>{d.summary_zh}</p>
+      <p class="card-source">{d.id} · Anthropic · 修訂 {d.updated_at}</p>
+    </article>;
+  })}</div>
+  <div class="empty-state" data-empty-state hidden><h2>沒有找到符合的案例</h2><p>試試較短的詞，例如「資料」，或使用上方「清除條件」。沒有符合項目，不代表這種風險不存在。</p></div>
+</section>
+<script>import '../scripts/case-filters';</script>

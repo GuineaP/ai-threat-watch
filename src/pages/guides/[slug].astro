@@ -1,0 +1,15 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allCases, caseTitle } from '../../lib/content';
+import { href, caseHref } from '../../lib/routes';
+export async function getStaticPaths(){return(await getCollection('guides')).map(guide=>({params:{slug:guide.data.slug},props:{guide}}));}
+const { guide }=Astro.props;
+const { Content }=await render(guide);
+const all=await allCases();
+const entries=guide.data.cases.map((slug:string)=>all.find(e=>e.data.slug===slug)!);
+---
+<BaseLayout title={guide.data.title} description={guide.data.summary}><article class="reading-page">
+<a class="back-link" href={href('/guides/')}>← 回四個問題</a><header class="article-header"><p class="eyebrow">主題導讀</p><h1>{guide.data.title}</h1><p class="lead">{guide.data.summary}</p><p class="fine">本站編者導讀 · 更新 {guide.data.updated_at}</p></header>
+<div class="prose guide-body"><Content /></div><section><h2>從這三篇，依序比較</h2><ol class="guide-cases">{entries.map((e,i)=><li><h3><a href={caseHref(e.data.report.report_id,e.data.slug)+'?guide='+guide.data.slug}>{caseTitle(e)}</a></h3><p>{e.data.summary_zh}</p><p class="fine">{i===0?'起讀案例':'另一件不同活動，供比較方法與條件'}</p></li>)}</ol></section><p class="fine">以上導讀依各篇所列 PDF 頁碼整理；原始來源、歸因與未知請見完整案例。這些案例不屬同一場行動。</p><p><a href={href('/guides/')}>選另一個問題 →</a></p>
+</article></BaseLayout>

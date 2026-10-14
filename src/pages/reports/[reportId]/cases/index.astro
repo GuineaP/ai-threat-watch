@@ -1,0 +1,12 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import CaseIndex from '../../../../components/CaseIndex.astro';
+import { allCases, counts } from '../../../../lib/content';
+import { href } from '../../../../lib/routes';
+export async function getStaticPaths() { return (await getCollection('reports')).map(report=>({params:{reportId:report.data.report_id},props:{report}})); }
+const { report }=Astro.props;
+const entries=(await allCases()).filter(e=>e.data.report.report_id===report.data.report_id);
+const stats=counts(entries);
+---
+<BaseLayout title="案例庫"><div class="wide"><header class="page-heading"><p class="eyebrow">案例庫 · {report.data.publisher}</p><h1>找到你想理解的案例。</h1><p>{stats.indexed} 篇中文導讀，從內容製作、人物資料到工具開發。</p><p class="fine">其中 {stats.main} 個主要案例單元與 {stats.embedded} 個內嵌補充案例。篇數不是成功攻擊次數；台灣記載與編者推演可重疊，請閱讀各篇的條件與限制。</p><a href={href('/guides/')}>還不知道從哪讀？從一個問題開始 <span aria-hidden="true">→</span></a></header><CaseIndex entries={entries} /></div></BaseLayout>

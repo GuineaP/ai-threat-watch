@@ -1,0 +1,20 @@
+name: 提出修正
+description: 文字、連結、引用、事實或 metadata 修正
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 頁面或案例 ID
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 原文與建議修正
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可回查的原始來源與頁碼
+      description: 若是事實或歸因修正，請保留原文信心水準。

@@ -1,0 +1,51 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import { allCases, caseTitle } from '../../../../lib/content';
+import { href, caseHref } from '../../../../lib/routes';
+export async function getStaticPaths(){return(await allCases()).map(entry=>({params:{reportId:entry.data.report.report_id,slug:entry.data.slug},props:{entry}}));}
+const { entry }=Astro.props;
+const { Content }=await render(entry);
+const guides=await getCollection('guides');
+const belongs=guides.filter(g=>g.data.cases.includes(entry.data.slug));
+const all=await allCases();
+const same=all.filter(e=>e.data.report.report_id===entry.data.report.report_id&&e.data.slug!==entry.data.slug&&e.data.report.section===entry.data.report.section);
+const peers=entry.data.source_group?all.filter(e=>e.data.source_group===entry.data.source_group&&e.data.slug!==entry.data.slug):[];
+const chosen=belongs.flatMap(g=>g.data.cases).filter((s:string)=>s!==entry.data.slug);
+const related=[...new Set([...peers.map(e=>e.data.slug),...chosen,...same.map(e=>e.data.slug)])].slice(0,2).map(slug=>all.find(e=>e.data.slug===slug)!);
+const library=href('/reports/'+entry.data.report.report_id+'/cases/');
+const pdf='https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf';
+---
+<BaseLayout title={caseTitle(entry)} description={entry.data.summary_zh||undefined}>
+<article class="reading-page" data-reading-page>
+<a class="back-link" data-library-back href={library}>← 回案例庫</a>
+<header class="article-header"><h1>{caseTitle(entry)}</h1><div class="article-meta"><span>來源：Anthropic</span><span>修訂 {entry.data.updated_at}</span><span>{entry.data.id}</span></div></header>
+<div class="reading-controls" data-reading-controls hidden><span>閱讀字級</span><button type="button" data-font="standard" aria-pressed="true">標準</button><button type="button" data-font="large" aria-pressed="false">較大</button></div>
+<div class="prose case-prose"><Content /></div>
+<div class="source-links"><a href={entry.data.sources[0]?.url||'https://www.anthropic.com/threat-intelligence-report-september-2026'} target="_blank" rel="noopener noreferrer">查看官方報告 <span aria-hidden="true">↗</span></a> · <a href={pdf+'#page='+entry.data.report.pages?.[0]} target="_blank" rel="noopener noreferrer">開啟 PDF 對應頁 <span aria-hidden="true">↗</span></a><p class="fine">頁碼採 PDF 檔案頁序，從1開始。來源所稱直接觀察，不等於本站獨立取得底層紀錄。</p>{entry.data.case_unit==='embedded'&&<p class="fine">本篇為原報告內嵌補充案例，獨立提供閱讀，不計入43個主要案例。</p>}{peers.length>0&&<p class="fine">與其他條目共用原報告節標題：{peers.map(e=><a href={caseHref(e.data.report.report_id,e.data.slug)}>{e.data.id} </a>)}。分開索引不代表彼此完全獨立的來源。</p>}<a href={href('/corrections/')+'?case='+entry.data.id}>指出需要更正的地方 →</a></div>
+<section class="related-reading"><h2>再讀一篇，看看差別</h2><ul>{related.map(e=><li><a href={caseHref(e.data.report.report_id,e.data.slug)}>{caseTitle(e)}</a><p>{peers.some(p=>p.data.slug===e.data.slug)?'共用原報告節標題，分別查看來源記載。':chosen.includes(e.data.slug)?'同一問題導讀中的另一件事件；比較條件與成果。':'同一報告章節中的另一件事件；對照 AI 與人的分工。'}</p></li>)}</ul>{belongs.length>0&&<p class="fine">也可回到主題導讀：{belongs.map(g=><a href={href('/guides/'+g.data.slug+'/')}>{g.data.title} </a>)}</p>}</section>
+</article></BaseLayout>
+<script>
+  const article=document.querySelector<HTMLElement>('[data-reading-page]');
+  const controls=document.querySelector<HTMLElement>('[data-reading-controls]');
+  const back=document.querySelector<HTMLAnchorElement>('[data-library-back]');
+  const query=new URLSearchParams(location.search);
+  const allowed=['public-opinion','personal-data','identity-and-trust','capability-and-outcome'];
+  const guide=query.get('guide');
+  if(back&&guide&&allowed.includes(guide)){
+    const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+    back.href=base+'/guides/'+guide+'/';back.textContent='← 回這個主題';
+  }else if(back&&query.has('return')){
+    const raw=new URLSearchParams(query.get('return')||'');const clean=new URLSearchParams();
+    for(const key of ['q','topic','taiwan']){const v=raw.get(key);if(v)clean.set(key,v);}
+    back.href+='?'+clean.toString();
+  }
+  if(article&&controls){
+    article.querySelector(".case-lead")?.after(controls);
+    controls.hidden=false;
+    controls.querySelectorAll<HTMLButtonElement>('[data-font]').forEach(button=>button.addEventListener('click',()=>{
+      article.classList.toggle('is-large',button.dataset.font==='large');
+      controls.querySelectorAll('[data-font]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+    }));
+  }
+</script>

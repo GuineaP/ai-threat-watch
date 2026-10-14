@@ -1,0 +1,5 @@
+---
+interface Props { zh?: string | null; en: string; first?: boolean; }
+const { zh, en, first = true } = Astro.props;
+---
+<span>{zh || '中文譯名待編輯'}{first && <>（<span lang="en">{en}</span>）</>}</span>

@@ -1,0 +1,6 @@
+---
+import { href } from '../lib/routes';
+interface Props { title_zh?: string | null; title_en: string; explanation?: string | null; slug?: string; }
+const { title_zh, title_en, explanation, slug } = Astro.props;
+---
+<details class="what-is-this"><summary>這是什麼？<span class="fine"> {title_zh || title_en}</span></summary><div><strong>{title_zh || '中文名稱待編輯'}</strong> <span lang="en">{title_en}</span><p>{explanation || '白話說明尚未提供，待編輯者補入。'}</p><slot />{slug && <a href={href(`/glossary/#${slug}`)}>查看術語表</a>}</div></details>

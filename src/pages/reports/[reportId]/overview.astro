@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import { href, reportHref } from '../../../lib/routes';
+export async function getStaticPaths(){return(await getCollection('reports')).map(report=>({params:{reportId:report.data.report_id},props:{report}}));}
+const { report }=Astro.props;
+---
+<ArticleLayout title="讀這份報告，先分清楚三件事" eyebrow={report.data.title_zh}><p>本站整理44篇條目，含一篇內嵌補充案例。第一次閱讀，可以從生活問題選一條導讀；不必先理解每個技術名詞。</p><h2>AI 產出，與人決定的事</h2><p>寫文字、翻譯、編寫程式與整理資料，是不同工作。目標、權限、發布安排及是否採用產出，也要看人的角色。</p><h2>有產出，與有實際影響</h2><p>文件、測試、部署與影響需要不同證據。貼文數不能換算成說服人數；同樣地，未量出說服效果，也不能抹去已記載的資料竊取。</p><h2>來源評估，與編者推演</h2><p>報告中對身分與政府關係的評估，沿用其信心與未知。對台灣的條件式推演標明為編者解讀，不能當成已發生的事件。</p><p><a href={href('/guides/')}>選一個生活問題 →</a></p><p><a href={reportHref(report.data.report_id)}>查看這份報告與來源 →</a></p></ArticleLayout>

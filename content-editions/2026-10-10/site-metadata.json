@@ -1,0 +1,4758 @@
+{
+  "gtg-20006": {
+    "id": "GTG-20006",
+    "source_id": "GTG-20006",
+    "slug": "gtg-20006",
+    "title_zh": "AI 持續協助入侵、整理失竊資料與修改工具",
+    "title_en": "GTG-20006: Russian espionage",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "summary_zh": "Anthropic 記載，使用者讓 Claude 持續協助入侵、整理失竊資料與修改工具，人主要設定目標、調整流程。來源記載實際資料失竊，並評估手法符合俄羅斯國家相關間諜活動；本文未獨立確認政府指揮。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-50014": {
+    "id": "GTG-50014",
+    "source_id": "GTG-50014",
+    "slug": "gtg-50014",
+    "title_zh": "使用者借助 AI 竊取資料，再利用服務商權限攻擊客戶",
+    "title_en": "GTG-50014: ShinyHunters smash-and-grab opportunists",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "summary_zh": "Anthropic 記載，多組疑似與 ShinyHunters 有關的使用者，讓 Claude 分析系統與匯出資料，再利用服務商權限攻擊下游客戶。約200個與數千個分屬不同資料竊取事件，不能合併為受害總數。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-10007": {
+    "id": "GTG-10007",
+    "source_id": "GTG-10007",
+    "slug": "gtg-10007",
+    "title_zh": "人離開電腦後，AI 仍持續研究漏洞與整理資料",
+    "title_en": "GTG-10007: Exploit foundries and autonomous attack frameworks",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一批使用中文、可能住在中國長沙的使用者，讓 AI 分工研究漏洞、偵察與整理資料，部分任務在人離開後仍運作。來源同時記載研究測試與資料竊取，但未證實政府或公司委託。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-50021": {
+    "id": "GTG-50021",
+    "source_id": "GTG-50021",
+    "slug": "gtg-50021",
+    "title_zh": "假冒優惠 Claude 服務，還竊取並轉售客戶帳號資訊",
+    "title_en": null,
+    "case_unit": "embedded",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        29
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一群轉售者宣稱提供優惠 Claude 服務，卻暗中把提問轉交另一個模型，還安裝竊取程式並轉售客戶帳號資訊。來源沒有說業者使用 Claude 開發工具，也未披露具體下游濫用事件。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          29
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-50020": {
+    "id": "GTG-50020",
+    "source_id": "GTG-50020",
+    "slug": "gtg-50020",
+    "title_zh": "使用者重用失竊 AI 金鑰，並讓多個 AI 程式協助攻擊",
+    "title_en": "GTG-50020: From hotel bookings to the AI supply chain",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名使用者重用從客戶環境竊得的 AI 金鑰，也讓多個 AI 程式並行偵察與測試。金鑰失竊與重用已有記載，但取得未公開 Claude 模型存取權的嘗試全部失敗。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-50029": {
+    "id": "GTG-50029",
+    "source_id": "GTG-50029",
+    "slug": "gtg-50029",
+    "title_zh": "AI 協助整合失竊與外洩資料，建立按姓名查找的平台",
+    "title_en": "GTG-50029: Hacktivists targeted European political and affiliated entities",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Cyber operations",
+      "pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名使用者讓 Claude 協助入侵工具與資料處理，把新竊資料和既有外洩資料整合成可按姓名查找的暗網服務。來源未提供完整去重結果，也未量測後續騷擾、脅迫或政治參與變化。",
+    "actor_type": null,
+    "topics": [
+      "cyber"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-04001": {
+    "id": "GTG-04001",
+    "source_id": "GTG-04001",
+    "slug": "gtg-04001",
+    "title_zh": "AI 協助親俄廣播製稿，讓外國宣傳披上本地媒體外觀",
+    "title_en": "GTG-04001: Disrupting a Russian foreign information manipulation and interference operation in the Central African Republic",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    "summary_zh": "Anthropic 記載，班基一名俄語使用者讓 Claude 依親俄方向製稿與擬定人事準則，再由當地媒體刊播。來源將這項外國經營、呈現為本地媒體的行動評估為俄羅斯國家指揮，但未量測聽眾態度變化。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-54002": {
+    "id": "GTG-54002",
+    "source_id": "GTG-54002",
+    "slug": "gtg-54002",
+    "title_zh": "AI 把同一則新聞改成不同立場，批次供稿給假媒體網站",
+    "title_en": "GTG-54002: Disrupting a commercial “influence-as-a-service” operation spanning six continents",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    "summary_zh": "Anthropic 將一個用 Claude 批次改寫政治新聞的網絡追溯到設於法國的 LKM Company。約七十個假媒體網站已刊登至少8,913篇文章；具體買方未確認，也未找到政府指揮或突破自有網絡的證據。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-84005": {
+    "id": "GTG-84005",
+    "source_id": "GTG-84005",
+    "slug": "gtg-84005",
+    "title_zh": "AI 協助建立政治操作平台，分析選民、管理假帳號並製稿",
+    "title_en": "GTG-84005: Disrupting a commercial election-manipulation platform targeting Malaysia",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    "summary_zh": "一個以馬來西亞為主要目標的付費平台，讓 Claude 協助建立選民分析與假帳號系統、改寫新聞並製作不實指控。百萬人工瀏覽請求與工具自報數字不能當真人觸及，政府合約也未獲證實。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-24015": {
+    "id": "GTG-24015",
+    "source_id": "GTG-24015",
+    "slug": "gtg-24015",
+    "title_zh": "AI 把新聞材料改成多語文稿、字幕與旁白稿",
+    "title_en": "GTG-24015: Disrupting Russian state-media editorial pipelines built on Claude",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    "summary_zh": "四個帳號使用 Claude 改寫、翻譯新聞，製作字幕與旁白稿。Anthropic 以高信心評估，部分產出進入俄羅斯國有或國家資助媒體，至少一項實際播出；觀眾態度是否改變未獲確認。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-34001": {
+    "id": "GTG-34001",
+    "source_id": "GTG-34001",
+    "slug": "gtg-34001",
+    "title_zh": "AI 製作多語宣傳，也把企畫整理成可反覆使用的工作手冊",
+    "title_en": "GTG-34001: Disrupting Iranian state-aligned influence operations on Claude—the ICCO, the Islamic Propaganda Office, and the Bina Observatory",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    "summary_zh": "三個與伊朗國家宣傳機構相關的帳號，使用 Claude 製作企畫、工作手冊與多語內容，部分已在其他平台發布。報告記載六種語言的製作工作，另有二十種語言的計畫，不能把計畫全算成完成成果。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-54006": {
+    "id": "GTG-54006",
+    "source_id": "GTG-54006",
+    "slug": "gtg-54006",
+    "title_zh": "AI 文稿接上影音與發布工具，批次製作不實政治內容",
+    "title_en": "GTG-54006: Disrupting an automated pro-Awami League fake-news operation on Claude targeting rural Bangladesh",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    "summary_zh": "一名位於孟加拉的使用者讓 Claude 製作有利人民聯盟的不實文稿與圖像提示，串接影音及排程流程。部分相符影片已發布；政黨或國家指揮、資助與更廣泛觸及均未獲確認。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          67,
+          68,
+          69,
+          70
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-84006": {
+    "id": "GTG-84006",
+    "source_id": "GTG-84006",
+    "slug": "gtg-84006",
+    "title_zh": "AI 模仿運動者的語氣，以其名義接續對話",
+    "title_en": "GTG-84006: Disrupting a distributed MEK/NCRI-aligned influence operation that used a shared AI agent to impersonate real people and recruit inside Iran",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    "summary_zh": "一項與伊朗反對派組織有關的活動，提供約八千四百則 Telegram 貼文，讓 Claude 模仿運動者語氣並接續對話。人類仍審核內容；原帳號持有人是否授權，以及成功招募人數，都未獲確認。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-54004": {
+    "id": "GTG-54004",
+    "source_id": "GTG-54004",
+    "slug": "gtg-54004",
+    "title_zh": "一套政治要求，AI 每批產出五十則不同寫法的貼文",
+    "title_en": "GTG-54004: Disrupting a domestic coordinated inauthentic behavior campaign in Kenya",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        75,
+        76,
+        77
+      ]
+    },
+    "summary_zh": "一名身分未明的使用者指定肯亞政治立場，要求 Claude 每批製作五十則不同口吻的貼文，營造民眾自發發言的樣子。報告觀察到多帳號協同分享，但未找到政府參與的證據，也未確認說服或選舉效果。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          75,
+          76,
+          77
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-84002": {
+    "id": "GTG-84002",
+    "source_id": "GTG-84002",
+    "slug": "gtg-84002",
+    "title_zh": "AI 協助製作人權報告、人物檔案與證詞，部分材料冒用團體身分",
+    "title_en": "GTG-84002: Disrupting a UAE-directed influence operation targeting the Muslim Brotherhood, Sudan conflict, and UN accountability mechanisms",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Influence operations",
+      "pages": [
+        78,
+        79,
+        80
+      ]
+    },
+    "summary_zh": "一名使用者讓 Claude 製作人權報告、人物資料與預定在聯合國人權理事會發表的證詞，部分冒用團體身分。Anthropic 高信心連結活動與阿聯官員，但證詞及人物檔案是否送達、政策效果均未確認。",
+    "actor_type": null,
+    "topics": [
+      "influence-operations"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          78,
+          79,
+          80
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-54009": {
+    "id": "GTG-54009",
+    "source_id": "GTG-54009",
+    "slug": "gtg-54009",
+    "title_zh": "AI把社群貼文整理成人物標籤與政治傾向評分",
+    "title_en": "GTG-54009: Disrupting a commercial surveillance platform using Claude to profile the social media accounts of Iranian and Persian Gulf-based users",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    },
+    "summary_zh": "Anthropic 記載，商業監控平台使用者讓 Claude 分類社群貼文，推測群體、位置與政治傾向，再製作簡報。調查時仍在試行；信心評分不是身分核實，下游滲透及裝置入侵未獲確認。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-14010": {
+    "id": "GTG-14010",
+    "source_id": "GTG-14010",
+    "slug": "gtg-14010",
+    "title_zh": "不會阿拉伯語的使用者，靠AI翻譯持續接觸情報對象",
+    "title_en": "GTG-14010: Disrupting a China-based surveillance and recruitment operation targeting Uyghurs in Syria",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    "summary_zh": "Anthropic 記載，不會阿拉伯語的使用者靠 Claude 翻譯，接觸可能提供維吾爾社群情報的人。人物分析與對話已有記載；招募成果的圖表表述有差異，承包商身分判斷也只有低信心。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          86,
+          87,
+          88,
+          89
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-14020": {
+    "id": "GTG-14020",
+    "source_id": "GTG-14020",
+    "slug": "gtg-14020",
+    "title_zh": "AI協助彙整台灣教會領導層在不同平台的資料",
+    "title_en": "GTG-14020: Disrupting a China-based religious affairs intelligence operation targeting Catholic, Tibetan Buddhist, Falun Gong, and Taiwanese Christian communities",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    "summary_zh": "Anthropic 記載，Claude 協助將多語、跨平台的人物資料製成中文檔案，目標包括台灣基督長老教會領導層。圖示列出三十天2,475份文件，並非不同人物數，報告未證明後續施壓。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": true,
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-14021": {
+    "id": "GTG-14021",
+    "source_id": "GTG-14021",
+    "slug": "gtg-14021",
+    "title_zh": "AI協助地方監控工作，撰寫日報、人物管控建議與內部手冊",
+    "title_en": "GTG-14021: Disrupting a China-based public and state security campaign of “stability maintenance” surveillance and transnational repression",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    "summary_zh": "Anthropic 記載，三項與中國地方公安或國安單位相關的活動，使用 Claude 查詢資料、製作日報、管控建議與手冊。文件產出不代表建議已執行，各項身分與所在地判斷的信心不同。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          93,
+          94,
+          95,
+          96,
+          97
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-14022": {
+    "id": "GTG-14022",
+    "source_id": "GTG-14022",
+    "slug": "gtg-14022",
+    "title_zh": "AI按政府文件格式，改寫台灣新聞與社群內容",
+    "title_en": "GTG-14022: Disrupting a China-based “public opinion monitoring” and dissident surveillance operation",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": true,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        98,
+        99,
+        100,
+        101
+      ]
+    },
+    "summary_zh": "Anthropic 記載，使用者按預設政治立場，將台灣新聞與社群內容分類、改寫成政府格式簡報。流程每天處理15至30多篇文章；政府承包商身分為中信心評估，建議是否採納仍不明。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": true,
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          98,
+          99,
+          100,
+          101
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-34007": {
+    "id": "GTG-34007",
+    "source_id": "GTG-34007",
+    "slug": "gtg-34007",
+    "title_zh": "AI協助開發監控工具，接進既有人物管理系統",
+    "title_en": "GTG-34007: Disrupting two Iranian nexus actors building surveillance systems and malicious Firefox browsing extension",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        101,
+        102,
+        103
+      ]
+    },
+    "summary_zh": "Anthropic 記載，兩個與伊朗安全機構相關的單位，用 Claude 開發連接人物管理系統的工具。偽裝祈禱時間工具的瀏覽器附加程式已投入使用；一年監控建檔6,388人則是單位自述。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          101,
+          102,
+          103
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-50027": {
+    "id": "GTG-50027",
+    "source_id": "GTG-50027",
+    "slug": "gtg-50027",
+    "title_zh": "AI協助建置監控平台，完成後由本機模型持續運作",
+    "title_en": "GTG-50027: Disrupting a national mass interception and surveillance platform for Mali’s state intelligence service",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        103,
+        104,
+        105
+      ]
+    },
+    "summary_zh": "Anthropic 記載，可能是馬利顧問的使用者用 Claude 建置監控平台，完成品由當地模型運作。人物檔案功能的令狀條件已移除；約2,500萬張 SIM 卡是涵蓋範圍，並非不同受害人數。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          103,
+          104,
+          105
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-30004": {
+    "id": "GTG-30004",
+    "source_id": "GTG-30004",
+    "slug": "gtg-30004",
+    "title_zh": "AI整理公開人物資料，也協助修改惡意程式",
+    "title_en": "GTG-30004: Automating open-source intelligence and developing malware",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        105
+      ]
+    },
+    "summary_zh": "Anthropic 記錄一名與伊朗有關聯的使用者，利用 Claude 建立並運行數百人的公開資料研究流程，另修改竊取工具。報告未證實人物遭入侵、工具送達目標或成功竊取資料。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          105
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-30005": {
+    "id": "GTG-30005",
+    "source_id": "GTG-30005",
+    "slug": "gtg-30005",
+    "title_zh": "AI用公開資料協助海軍目標研究，同帳號另做監控軟體開發",
+    "title_en": "GTG-30005: Military reconnaissance",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        106,
+        107
+      ]
+    },
+    "summary_zh": "Anthropic 記錄一名與伊朗有關聯的使用者，用 Claude 整理美國海軍目標研究手冊；同帳號另為伊朗國家系統開發監控元件，分析一個244人私人群組。沒有海上攻擊或大規模監控部署的證據。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          106,
+          107
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-30006": {
+    "id": "GTG-30006",
+    "source_id": "GTG-30006",
+    "slug": "gtg-30006",
+    "title_zh": "監控工具被拆成一般開發任務，逐步交給AI處理",
+    "title_en": "GTG-30006: Building the tools for domestic surveillance",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Surveillance operations",
+      "pages": [
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    "summary_zh": "Anthropic 記錄一名伊朗行動者，針對境內人士將監控與假冒頁面拆成多段工作，利用 Claude 開發及測試。十次直接惡意請求中拒絕九次，不能推論整體防護能力；實際感染與外洩規模未明。",
+    "actor_type": null,
+    "topics": [
+      "surveillance"
+    ],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          107,
+          108,
+          109,
+          110
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-87001": {
+    "id": "GTG-87001",
+    "source_id": "GTG-87001",
+    "slug": "gtg-87001",
+    "title_zh": "AI參與導引武器軟體、模擬與故障分析",
+    "title_en": "GTG-87001: Disrupting a Yemen-based guided weapons engineering cell using Claude to develop guidance software",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        112,
+        113,
+        114,
+        115
+      ]
+    },
+    "summary_zh": "Anthropic 記錄葉門北部小組讓 Claude 參與三項導引武器計畫的程式、研究、審查與故障分析。一項火箭實地試射似乎失敗，其餘僅見模擬與設計，沒有可投入使用裝置的證據；封禁後續影響未明。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          112,
+          113,
+          114,
+          115
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-17001": {
+    "id": "GTG-17001",
+    "source_id": "GTG-17001",
+    "slug": "gtg-17001",
+    "title_zh": "AI反覆撰寫、審稿與修訂軍事系統提案",
+    "title_en": "GTG-17001: Disrupting a China-based operation using Claude to draft a fire control specification and acquisition documents for undersea warfare",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        115,
+        116
+      ]
+    },
+    "summary_zh": "一名位於中國的使用者用 Claude 反覆撰寫、模擬審查及修訂反魚雷提案，也開發部分程式。Anthropic 評估其與中國國防製造商有關，提案面向中國海軍；具體身分、採納與部署未確認。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          115,
+          116
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-27005": {
+    "id": "GTG-27005",
+    "source_id": "GTG-27005",
+    "slug": "gtg-27005",
+    "title_zh": "小型團隊用AI開發自主無人機群軟體，進行模擬與開發板測試",
+    "title_en": "GTG-27005: Disrupting a Russia-based operation using Claude to engineer an autonomous military drone swarm",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        117,
+        118,
+        119
+      ]
+    },
+    "summary_zh": "Anthropic 記錄可能位於俄羅斯的小型接案團隊，用 Claude 開發自主無人機群軟體，再以模擬與實體開發板測試。圖表顯示早期技術驗證，未證實整體測試或戰場部署；團隊自述的政府資助未獲核實。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          117,
+          118,
+          119
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-17002": {
+    "id": "GTG-17002",
+    "source_id": "GTG-17002",
+    "slug": "gtg-17002",
+    "title_zh": "AI協助開發電子戰軟體，把台灣設施放進模擬情境",
+    "title_en": "GTG-17002: Disrupting a China-based operation using Claude to build targeting software for electronic warfare and air defense suppression",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        119,
+        120,
+        121,
+        122
+      ]
+    },
+    "summary_zh": "Anthropic 記錄一名位於中國的使用者，用 Claude 開發約16個模組、12個版本的電子戰軟體，將12個台灣目標放入模擬情境。來源評估其與中國研究機構有關，未證實作戰採用、實際性能或攻擊成果。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": true,
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          119,
+          120,
+          121,
+          122
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-27006": {
+    "id": "GTG-27006",
+    "source_id": "GTG-27006",
+    "slug": "gtg-27006",
+    "title_zh": "AI協助跨境採購文件，也串接資料整理工具",
+    "title_en": "GTG-27006: Disrupting a Russia-based operation using Claude to procure mixed military and civilian goods",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名自稱莫斯科設計局採購經理的使用者，結合 Claude 與外部工具處理詢價、招標及採購資料。部分工作涉及中國與香港中介；已出貨只是資料中的說法，並非獨立確認到貨。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          123,
+          124,
+          125,
+          126
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-17003": {
+    "id": "GTG-17003",
+    "source_id": "GTG-17003",
+    "slug": "gtg-17003",
+    "title_zh": "AI協助整理公開武器資料，製作中文簡報與追蹤清單",
+    "title_en": "GTG-17003: Disrupting a China-based operation using Claude to collect intelligence on directed-energy weapons and their supply chain",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Conventional weapons",
+      "pages": [
+        126,
+        127,
+        128
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名位於中國的使用者請 Claude 蒐整公開武器資料、推測供應商並製作中文報告。使用者聲稱簡報面向中共等高層；研究方法的評價不等於政府指揮或簡報已被採用。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          126,
+          127,
+          128
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "biological-case-1": {
+    "id": "BIO-CASE-1",
+    "source_id": "Case study 1",
+    "slug": "biological-case-1",
+    "title_zh": "AI轉接平台把研究請求交給不同模型，Claude協助程式與文稿",
+    "title_en": "Case study 1: An evasion platform for military-civilian research",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Biological misuse",
+      "pages": [
+        130,
+        131,
+        132,
+        133
+      ]
+    },
+    "summary_zh": "Anthropic 記載，研究轉接平台把部分敏感請求交給其他模型，Claude 仍協助平台程式及研究文稿。來源從後續材料推測研究不限於經費申請，但未公開可供獨立核實的實驗結果，也未斷言研究者有害意圖。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          130,
+          131,
+          132,
+          133
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "biological-case-2": {
+    "id": "BIO-CASE-2",
+    "source_id": "Case study 2",
+    "slug": "biological-case-2",
+    "title_zh": "AI協助禽流感研究的文獻整理、規劃與寫作",
+    "title_en": "Case study 2: A research program engineering highly pathogenic mammal-adapted avian influenza",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Biological misuse",
+      "pages": [
+        130,
+        133,
+        134,
+        135
+      ]
+    },
+    "summary_zh": "Anthropic 記載，研究者以 Claude 協助禽流感文獻、資料分析、規劃及寫作。來源認為計畫仍在早期，也推測團隊接觸實體材料；AI 助益有限是供應商評估，公開內容不足核實實驗進度。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          130,
+          133,
+          134,
+          135
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "biological-case-3": {
+    "id": "BIO-CASE-3",
+    "source_id": "Case study 3",
+    "slug": "biological-case-3",
+    "title_zh": "Claude約一小時起草病毒研究經費申請書",
+    "title_en": "Case study 3: Covert frontier model access for orthopoxvirus research",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Biological misuse",
+      "pages": [
+        130,
+        135
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名客戶透過轉接平台，使用 Claude 約一小時起草病毒研究經費申請書。這是文稿起草時間，不能證明實驗完成；同一帳號服務多名客戶，也不能將所有對話算在一人身上。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          130,
+          135
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "biological-case-4": {
+    "id": "BIO-CASE-4",
+    "source_id": "Case study 4",
+    "slug": "biological-case-4",
+    "title_zh": "AI協助整理毒素資料，建立生成候選分子的計算流程",
+    "title_en": "Case studies 4 and 5: Venoms and toxins",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-biological-cases-4-5",
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Biological misuse",
+      "pages": [
+        130,
+        136,
+        137
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名研究者以 Claude 建立毒素資料圖譜與生成候選分子的計算流程，明示治療目的。來源未展示各步驟執行紀錄或實體驗證；國家支持背景與地區政策封禁，都不能直接證明武器意圖。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          130,
+          136,
+          137
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "biological-case-5": {
+    "id": "BIO-CASE-5",
+    "source_id": "Case study 5",
+    "slug": "biological-case-5",
+    "title_zh": "AI協助研究與進度報告，研究者要求模糊描述研究對象",
+    "title_en": "Case studies 4 and 5: Venoms and toxins",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-biological-cases-4-5",
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Biological misuse",
+      "pages": [
+        130,
+        136,
+        137
+      ]
+    },
+    "summary_zh": "Anthropic 記載，一名研究者使用 Claude 協助計算研究並合寫季度報告，刻意模糊部分研究對象。來源描述了文本掩飾，但未確認報告對外發布，也未證明研究成果已製成實體、用作武器或造成傷害。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": null,
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": null
+    },
+    "ai_scope": {
+      "performed": null,
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": null,
+      "attempted": null,
+      "unknown": null
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          130,
+          136,
+          137
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-15001": {
+    "id": "GTG-15001",
+    "source_id": "GTG-15001",
+    "slug": "gtg-15001",
+    "title_zh": "AI人物持續聊天，真人補上視訊等互動",
+    "title_en": "GTG-15001: Deceptive dating app network",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Scams and fraud",
+      "pages": [
+        139,
+        140,
+        141,
+        142
+      ]
+    },
+    "summary_zh": "Anthropic 記載，中國工作室用 Claude 建置交友 App 並維持 AI 人物聊天，真人補上視訊等互動，卻宣稱全真人。兩週至少25,000名用戶互動，不等於每人都付款或受損。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "Anthropic 記載的一家位於中國的 App 工作室",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": [
+        "中國（依 Anthropic）"
+      ],
+      "target_country": [
+        "美國（來源第140頁的 targeted user）"
+      ]
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": null,
+      "confidence": "unknown",
+      "not_established": [
+        "未證實政府參與或情報任務；來源為 Claude 商業供應商，非本站獨立調查。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "依 Anthropic：Claude 協助建置20多個交友 App 並自主維持文字人物；其他模型提供真人回覆建議及影像處理。"
+      ],
+      "not_performed": [
+        "視訊與社群互追由真人負責；未證明 Claude 能執行這些真人驗證。"
+      ]
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "僅指來源記載：2026年4月兩週逾4700個AI人物、至少25000名不同用戶及約236萬則訊息；來源稱已封禁相關帳號。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "逐人付款與損害、所有App是否下架或停止營運。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          139,
+          140,
+          141,
+          142
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16005": {
+    "id": "GTG-16005",
+    "source_id": "GTG 16005",
+    "slug": "gtg-16005",
+    "title_zh": "Anthropic指稱：阿里巴巴相關使用者大量取得Claude回答供訓練",
+    "title_en": "GTG 16005: Chain-of-thought distillation and AI R&D campaign by Alibaba (Qwen / Tongyi Lab)",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        143,
+        144,
+        147,
+        148
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，阿里巴巴關聯操作者取得 Claude 回答與推理文字，供 Qwen 訓練並協助模型研發。2026年5至7月逾1.51億次交換是來源歸因的活動量，不能衡量能力增幅。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "與阿里巴巴有關聯的操作者（Anthropic 歸因）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "Anthropic 將本案歸於阿里巴巴，並聲稱蒐集資料提升Qwen推理；Anthropic 同時是被使用模型的商業供應商。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "本站未獨立驗證帳號歸屬、資料流、能力提升幅度或授權狀態；無法律裁定。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "依 Anthropic：生成推理紀錄供Qwen 3.5、3.6、3.7訓練，協助建立強化學習環境及研究模型架構。"
+      ],
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "來源記載2026年5至7月逾1.51億次交換，非模型能力增幅。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "可獨立重做的模型比較及逐筆訓練資料流。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          143,
+          144,
+          147,
+          148
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16002": {
+    "id": "GTG-16002",
+    "source_id": "GTG-16002",
+    "slug": "gtg-16002",
+    "title_zh": "Anthropic指稱：Kimi的部分請求轉由Claude回答",
+    "title_en": "GTG-16002: Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        148,
+        149
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，Moonshot 將部分 Kimi 請求交 Claude 回答並保存部分對話供訓練。樣本涉及可能與解放軍有關的使用者及中國國企資料；來源明說不知客戶是否獲告知。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "Moonshot AI（Anthropic 對轉送及保存行為的歸因）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "樣本一名使用者被Anthropic評估可能與解放軍有關，另有中國大型國企工程師；不等於Moonshot受上述機構控制。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "來源稱客戶以為使用Kimi，但又明說不知Moonshot是否通知轉送；所有客戶知情與同意狀態未釐清，本站未獨立驗證。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "來源指稱 Claude 回答部分 Kimi 客戶請求，部分交換被保存並用於提取訓練推理紀錄。"
+      ],
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "來源記錄一次十天近30萬轉送客戶請求，另記5至7月逾2300萬相關交換；兩者不相加。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "全部客戶人數、個案資料是否均屬該十天樣本、通知及同意狀態、模型增益。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          148,
+          149
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16001": {
+    "id": "GTG-16001",
+    "source_id": "GTG-16001",
+    "slug": "gtg-16001",
+    "title_zh": "Anthropic指稱：DeepSeek將部分程式工作請求轉送Claude",
+    "title_en": "GTG-16001: DeepSeek serves Claude instead of its own models and collects exchanges for model training",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        149,
+        150
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，DeepSeek 轉送部分程式工具請求給 Claude，含中國企業、公安及俄國國防相關機關的資料。來源評估客戶很可能不知情；交換量不等於受害人數或模型增益。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "DeepSeek（Anthropic 對轉送及蒸餾行為的歸因）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "Anthropic 評估客戶資料很可能在未告知或未同意下被轉送；下游材料涉及中國科技公司、中國公安及與俄國國防部相關政府機關。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "下游機構背景不證明其控制或委託DeepSeek；全部客戶不知情、資料遭後續竊用或系統部署均未確立。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "來源指稱 Claude 處理部分來自程式輔助工具的請求，並提供被取得供訓練的推理紀錄。"
+      ],
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "來源歸因2026年7月14天逾1210萬次相關交換。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "敏感客戶請求占比、不同客戶數、模型增益及客戶逐一知情狀態。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          149,
+          150
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16006": {
+    "id": "GTG-16006",
+    "source_id": "GTG-16006",
+    "slug": "gtg-16006",
+    "title_zh": "Anthropic指稱：智譜用Claude整理訓練資料、評量模型處理資安題的表現",
+    "title_en": "GTG-16006: Distillation, AI R&D, and targeting cyber capabilities",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        150,
+        151
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，智譜用 Claude 整理訓練資料並評量另一模型的資安題答案。六月十天有770,609次交換經過清理流程；產出在整體訓練流程中的使用範圍仍屬評估，未證明真實入侵。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "智譜／Z.ai（Anthropic 歸因）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "Anthropic 記載資料為GLM訓練整理，並評估產出很可能用於整個訓練流程；防護效果為商業供應商自身觀察。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "訓練流程中具體使用範圍、獨立模型增益或政府委託、對台用途未確立。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "依來源：整理、評分及篩選訓練資料，撰寫題目和測試；Opus4.6主要評量另一美國模型的資安題答案。"
+      ],
+      "not_performed": [
+        "未由這些挑戰題測試證明真實入侵。"
+      ]
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "來源記錄六月十天770609次清理流程交換、同期間全部逾300萬；不同範圍不相加。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "獨立測試的能力增幅、真實入侵成果；Fable受阻不等於其他模型途徑全部被阻斷。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": null
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          150,
+          151
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16008": {
+    "id": "GTG-16008",
+    "source_id": "GTG-16008",
+    "slug": "gtg-16008",
+    "title_zh": "Anthropic指稱：小米將MiMo舊對話交給Claude重建訓練資料",
+    "title_en": "GTG-16008: Distillation campaign by Xiaomi",
+    "case_unit": "main",
+    "source_group": null,
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        151,
+        152
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，小米把 MiMo 客戶舊對話重送 Claude，整理為訓練資料，未見用 Claude 直接回覆客戶的跡象。二十天逾四十萬次交換不是用戶人數，免費試用目的仍屬推測。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "小米（Anthropic 歸因）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "免費試用為蒐集對話訓練的目的仍是Anthropic依時序等線索的推測。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "平台常有美歐使用者，不等於這批是美歐資料；來源無美國人士資料暴露跡象，也無直接台灣資料記載。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "依來源：Claude整理MiMo保存的舊對話、重建開發環境、生成問答並評判答案品質。"
+      ],
+      "not_performed": [
+        "Anthropic 調查未顯示小米用Claude回答直接服務客戶；不把此未知寫為絕對未發生。"
+      ]
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "來源記錄2026年3至4月20天逾40萬次交換，材料含數百名用戶敏感資訊；交換量不是人數。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "逐一同意紀錄、直接代答、實際模型增益及台灣使用者是否受影響。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          151,
+          152
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16012": {
+    "id": "GTG-16012",
+    "source_id": "GTG 16012",
+    "slug": "gtg-16012",
+    "title_zh": "Anthropic指稱：商湯購入第三方保存的Claude對話供訓練",
+    "title_en": "GTG 16012 and GTG 16003: Sensetime, MiniMax, and the third-party reseller ecosystem",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-sensetime-minimax",
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        144,
+        152,
+        153
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，商湯購買第三方保存的 Claude 對話供訓練，也用 Claude 編寫流程、啟動及監看訓練。這些行為明確歸於商湯；交易授權、使用者同意及模型效果未獨立驗證。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "SenseTime／商湯（Anthropic 歸因的買方與訓練使用者）",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "Anthropic 指稱第三方保存出售對話，由商湯購買並納入訓練流程。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "交易授權、逐一用戶同意、完整合約及模型增益未獨立驗證；行為不延伸歸給MiniMax。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "依來源：Claude編寫商湯蒸餾流程並啟動、監看訓練。"
+      ],
+      "not_performed": null
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "僅指來源記載：商湯訓練流程含購入第三方Claude對話並使用Claude協助訓練流程。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "交易數、不同使用者數及可驗證模型提升幅度。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          144,
+          152,
+          153
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  },
+  "gtg-16003": {
+    "id": "GTG-16003",
+    "source_id": "GTG 16003",
+    "slug": "gtg-16003",
+    "title_zh": "Anthropic指稱：MiniMax關聯轉接服務可能蒐集對話供訓練",
+    "title_en": "GTG 16012 and GTG 16003: Sensetime, MiniMax, and the third-party reseller ecosystem",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-sensetime-minimax",
+    "status": "published",
+    "selected_for_deep_dive": false,
+    "deep_dive": true,
+    "report": {
+      "publisher": "Anthropic",
+      "report_id": "anthropic-2026-09",
+      "section": "Illicit distillation",
+      "pages": [
+        143,
+        144,
+        152,
+        153
+      ]
+    },
+    "summary_zh": "Anthropic 指稱，MiniMax 透過未揭露母公司關係的空殼公司，提供 Anthropic 與 OpenAI 模型轉接服務。蒐集對話供訓練是來源推測，不能搬用商湯購買資料的紀錄。",
+    "actor_type": null,
+    "topics": [],
+    "actors": {
+      "operator": "Anthropic 指稱由 MiniMax 透過空殼公司建立的轉接服務",
+      "commissioner": null,
+      "beneficiary": null
+    },
+    "regions": null,
+    "targets": null,
+    "relationships": {
+      "attribution_country": null,
+      "content_source_country": null,
+      "operator_location": null,
+      "target_country": null
+    },
+    "attribution": {
+      "observed": null,
+      "assessed": [
+        "MiniMax與空殼公司母子關係是Anthropic直接指稱；蒐集對話供訓練則為根據未揭露關係和模型供應範圍的目的推測。"
+      ],
+      "confidence": "unknown",
+      "not_established": [
+        "未有完整紀錄證明每筆對話保存或進入訓練；不把商湯購買第三方資料歸於MiniMax。"
+      ]
+    },
+    "ai_scope": {
+      "performed": [
+        "來源指稱服務提供Anthropic與OpenAI模型存取；模型回答與平台經營屬不同角色。"
+      ],
+      "not_performed": [
+        "來源未記載Claude替MiniMax開發轉接平台。"
+      ]
+    },
+    "autonomy": {
+      "level": "unknown",
+      "human_roles": null
+    },
+    "uplift": {
+      "speed": {
+        "assessment": null,
+        "evidence": null
+      },
+      "scale": {
+        "assessment": null,
+        "evidence": null
+      },
+      "depth": {
+        "assessment": null,
+        "evidence": null
+      }
+    },
+    "safeguards": {
+      "refusals_observed": "unknown",
+      "refused_tasks": null,
+      "circumvention_observed": "unknown",
+      "residual_capability": null
+    },
+    "outcome": {
+      "confirmed": [
+        "僅指來源指稱：轉接服務只提供Anthropic與OpenAI模型、不提供中國模型，包括MiniMax模型。"
+      ],
+      "attempted": null,
+      "unknown": [
+        "流量、客戶數、敏感資料類別、實際訓練使用及模型效果。"
+      ]
+    },
+    "reach": {
+      "observed": null,
+      "claimed": null,
+      "independently_verified": "unknown",
+      "breakout_scale": "unknown"
+    },
+    "taiwan_relevance": {
+      "direct": "unknown",
+      "analogous": null,
+      "editorial_analysis": "本文有編者對台討論，詳見正文。"
+    },
+    "terms": [],
+    "sources": [
+      {
+        "id": "original-report",
+        "title": "Anthropic 原報告",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "pages": [
+          143,
+          144,
+          152,
+          153
+        ],
+        "note": "PDF 檔案頁序，從1開始；來源說法不等於本站獨立驗證。"
+      }
+    ],
+    "updated_at": "2026-10-10"
+  }
+}

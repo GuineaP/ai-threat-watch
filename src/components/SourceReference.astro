@@ -1,0 +1,6 @@
+---
+import { pagesLabel } from '../lib/content';
+interface Props { title: string; url?: string | null; pages?: number[] | null; note?: string | null; }
+const { title, url, pages, note } = Astro.props;
+---
+<div class="source-reference"><p>{url ? <a href={url}>{title}</a> : <strong>{title}</strong>}<br />{pagesLabel(pages)}</p>{!url && <p class="fine">已回查編輯者提供的 PDF；公開原始來源連結待補。</p>}{note && <p class="fine">{note}</p>}</div>

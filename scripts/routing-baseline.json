@@ -1,0 +1,398 @@
+{
+  "gtg-50029": {
+    "id": "GTG-50029",
+    "slug": "gtg-50029",
+    "source_id": "GTG-50029",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16003": {
+    "id": "GTG-16003",
+    "slug": "gtg-16003",
+    "source_id": "GTG 16003",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-sensetime-minimax",
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16012": {
+    "id": "GTG-16012",
+    "slug": "gtg-16012",
+    "source_id": "GTG 16012",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-sensetime-minimax",
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-27005": {
+    "id": "GTG-27005",
+    "slug": "gtg-27005",
+    "source_id": "GTG-27005",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-34007": {
+    "id": "GTG-34007",
+    "slug": "gtg-34007",
+    "source_id": "GTG-34007",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-10007": {
+    "id": "GTG-10007",
+    "slug": "gtg-10007",
+    "source_id": "GTG-10007",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-54009": {
+    "id": "GTG-54009",
+    "slug": "gtg-54009",
+    "source_id": "GTG-54009",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16002": {
+    "id": "GTG-16002",
+    "slug": "gtg-16002",
+    "source_id": "GTG-16002",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-14022": {
+    "id": "GTG-14022",
+    "slug": "gtg-14022",
+    "source_id": "GTG-14022",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-30006": {
+    "id": "GTG-30006",
+    "slug": "gtg-30006",
+    "source_id": "GTG-30006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-84005": {
+    "id": "GTG-84005",
+    "slug": "gtg-84005",
+    "source_id": "GTG-84005",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16006": {
+    "id": "GTG-16006",
+    "slug": "gtg-16006",
+    "source_id": "GTG-16006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-17003": {
+    "id": "GTG-17003",
+    "slug": "gtg-17003",
+    "source_id": "GTG-17003",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-04001": {
+    "id": "GTG-04001",
+    "slug": "gtg-04001",
+    "source_id": "GTG-04001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "biological-case-5": {
+    "id": "BIO-CASE-5",
+    "slug": "biological-case-5",
+    "source_id": "Case study 5",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-biological-cases-4-5",
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-54006": {
+    "id": "GTG-54006",
+    "slug": "gtg-54006",
+    "source_id": "GTG-54006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "biological-case-1": {
+    "id": "BIO-CASE-1",
+    "slug": "biological-case-1",
+    "source_id": "Case study 1",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-50027": {
+    "id": "GTG-50027",
+    "slug": "gtg-50027",
+    "source_id": "GTG-50027",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-54002": {
+    "id": "GTG-54002",
+    "slug": "gtg-54002",
+    "source_id": "GTG-54002",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-24015": {
+    "id": "GTG-24015",
+    "slug": "gtg-24015",
+    "source_id": "GTG-24015",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16008": {
+    "id": "GTG-16008",
+    "slug": "gtg-16008",
+    "source_id": "GTG-16008",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-87001": {
+    "id": "GTG-87001",
+    "slug": "gtg-87001",
+    "source_id": "GTG-87001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-17002": {
+    "id": "GTG-17002",
+    "slug": "gtg-17002",
+    "source_id": "GTG-17002",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "biological-case-4": {
+    "id": "BIO-CASE-4",
+    "slug": "biological-case-4",
+    "source_id": "Case study 4",
+    "case_unit": "main",
+    "source_group": "anthropic-2026-09-biological-cases-4-5",
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-15001": {
+    "id": "GTG-15001",
+    "slug": "gtg-15001",
+    "source_id": "GTG-15001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "biological-case-3": {
+    "id": "BIO-CASE-3",
+    "slug": "biological-case-3",
+    "source_id": "Case study 3",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-50021": {
+    "id": "GTG-50021",
+    "slug": "gtg-50021",
+    "source_id": "GTG-50021",
+    "case_unit": "embedded",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-17001": {
+    "id": "GTG-17001",
+    "slug": "gtg-17001",
+    "source_id": "GTG-17001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-54004": {
+    "id": "GTG-54004",
+    "slug": "gtg-54004",
+    "source_id": "GTG-54004",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-50020": {
+    "id": "GTG-50020",
+    "slug": "gtg-50020",
+    "source_id": "GTG-50020",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-50014": {
+    "id": "GTG-50014",
+    "slug": "gtg-50014",
+    "source_id": "GTG-50014",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-20006": {
+    "id": "GTG-20006",
+    "slug": "gtg-20006",
+    "source_id": "GTG-20006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "biological-case-2": {
+    "id": "BIO-CASE-2",
+    "slug": "biological-case-2",
+    "source_id": "Case study 2",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-84002": {
+    "id": "GTG-84002",
+    "slug": "gtg-84002",
+    "source_id": "GTG-84002",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-27006": {
+    "id": "GTG-27006",
+    "slug": "gtg-27006",
+    "source_id": "GTG-27006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16001": {
+    "id": "GTG-16001",
+    "slug": "gtg-16001",
+    "source_id": "GTG-16001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-30005": {
+    "id": "GTG-30005",
+    "slug": "gtg-30005",
+    "source_id": "GTG-30005",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-14021": {
+    "id": "GTG-14021",
+    "slug": "gtg-14021",
+    "source_id": "GTG-14021",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-84006": {
+    "id": "GTG-84006",
+    "slug": "gtg-84006",
+    "source_id": "GTG-84006",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-16005": {
+    "id": "GTG-16005",
+    "slug": "gtg-16005",
+    "source_id": "GTG 16005",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-34001": {
+    "id": "GTG-34001",
+    "slug": "gtg-34001",
+    "source_id": "GTG-34001",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-14010": {
+    "id": "GTG-14010",
+    "slug": "gtg-14010",
+    "source_id": "GTG-14010",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-30004": {
+    "id": "GTG-30004",
+    "slug": "gtg-30004",
+    "source_id": "GTG-30004",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": false,
+    "report_id": "anthropic-2026-09"
+  },
+  "gtg-14020": {
+    "id": "GTG-14020",
+    "slug": "gtg-14020",
+    "source_id": "GTG-14020",
+    "case_unit": "main",
+    "source_group": null,
+    "selected_for_deep_dive": true,
+    "report_id": "anthropic-2026-09"
+  }
+}

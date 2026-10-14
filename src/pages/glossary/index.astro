@@ -1,0 +1,17 @@
+---
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { caseHref } from '../../lib/routes';
+const report='anthropic-2026-09';
+const terms=[
+  {slug:'agentic-ai',title:'AI 代理程式',text:'把 AI 接上工具與工作安排，讓它連續處理多個步驟。能自動做一部分工作，不代表自行決定目標或取得所有權限。',example:'gtg-10007'},
+  {slug:'astroturfing',title:'假草根',text:'看似很多普通人自發發聲，實際依照共同安排製作。重點是隱瞞協調關係，不能只憑立場或相似文風判斷。',example:'gtg-54004'},
+  {slug:'distillation',title:'模型蒸餾',text:'用一個模型的回答，幫助訓練另一個模型。方法本身不等於違法；來源指控的資料取得方式與授權，需要另外查證。',example:'gtg-16005'},
+  {slug:'api-key',title:'服務金鑰',text:'讓程式使用服務的通行資訊。被竊取後可能遭冒用；這與取得模型本身或攻破模型供應商，是不同事件。',example:'gtg-50020'},
+  {slug:'electronic-warfare',title:'電子戰',text:'利用電磁訊號偵測、干擾或欺騙雷達與通訊。把目標寫進軟體模擬，並不證明已發生實際攻擊。',example:'gtg-17002'},
+  {slug:'state-nexus',title:'政府關聯與歸因',text:'來源根據活動、文件與其他線索，判斷操作者可能與誰有關。所在地、政治立場、官員自述與具名機關下令，需要不同證據。',example:'gtg-14020'},
+];
+---
+<ArticleLayout title="遇到名詞，先用白話理解"><p>這裡提供閱讀用的簡短說明；具體意思與限制，仍要放回各篇案例。以下技術詞依連結文章與其中原報告頁碼整理。</p>
+{terms.map(t=><section class="glossary-entry" id={t.slug}><h2>{t.title}</h2><p>{t.text}</p><p><a href={caseHref(report,t.example)}>放回具體案例閱讀 →</a></p></section>)}
+<section class="glossary-entry" id="fimi"><h2>外國資訊操弄與干預（FIMI）</h2><p>關注有意圖、經協調的操弄行為，如何影響公共價值與政治程序。判斷不只看一則訊息是真是假，也要查安排與行為；不能把不同意的言論一律套上這個名稱。</p><p class="fine">本站白話整理，參考 <a href="https://www.eeas.europa.eu/eeas/information-integrity-and-countering-foreign-information-manipulation-interference-fimi_en">歐盟對外事務部門的說明 ↗</a>。</p></section>
+</ArticleLayout>

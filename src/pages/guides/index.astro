@@ -1,0 +1,7 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { href } from '../../lib/routes';
+const guides=(await getCollection('guides')).sort((a,b)=>a.data.order-b.data.order);
+---
+<BaseLayout title="從一個問題開始"><div class="wide"><header class="page-heading"><p class="eyebrow">從這裡開始</p><h1>先選一件你關心的事。</h1><p>每條導讀用三個不同案例，幫你辨認一種方法與它的限制。可以只讀第一篇，也可以繼續比較。</p></header><div class="guide-grid">{guides.map(g=><a class="guide-card" href={href('/guides/'+g.data.slug+'/')}><span class="guide-number" aria-hidden="true">0{g.data.order}</span><h2>{g.data.title}</h2><p>{g.data.summary}</p><span class="guide-action">三篇案例，依序比較 <span aria-hidden="true">→</span></span></a>)}</div></div></BaseLayout>

@@ -1,0 +1,10 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { allCases, caseTitle } from '../../lib/content';
+import { href, caseHref } from '../../lib/routes';
+export async function getStaticPaths(){return(await getCollection('topics')).map(topic=>({params:{slug:topic.data.slug},props:{topic}}));}
+const { topic }=Astro.props;
+const entries=(await allCases()).filter(e=>e.data.topics.includes(topic.data.slug));
+---
+<ArticleLayout title={topic.data.title} eyebrow="既有主題標記"><p>這是既有索引的主題標記，並非國家歸因或風險排名。更容易入門的閱讀順序，可從四個生活問題開始。</p><p><a href={href('/guides/')}>選一個生活問題 →</a></p><h2>這個標記下的案例</h2>{entries.length?<ul>{entries.map(e=><li><a href={caseHref(e.data.report.report_id,e.data.slug)}>{caseTitle(e)}</a></li>)}</ul>:<p>目前沒有條目使用這個標記；不代表原報告沒有相關活動。請到案例庫搜尋。</p>}<p><a href={href('/reports/anthropic-2026-09/cases/')}>查看完整案例庫 →</a></p></ArticleLayout>

@@ -1,0 +1,1410 @@
+{
+  "edition": "2026-10-10",
+  "completed_on": "2026-10-14",
+  "method": "Fresh-context GPT-6 Astra copyediting followed by a different fresh-context GPT-6 Astra source reviewer. Model source comparison is not external independent verification.",
+  "cases": [
+    {
+      "id": "gtg-20006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "visual_pages_inspected": [
+        7
+      ],
+      "fact_corrections": [
+        "人工角色改據第7頁明確的流程調整，避免從第9頁不清楚的直接執行主詞推定人工工作。",
+        "視讀第7頁圖表24/27，保留與正文範圍未對應。"
+      ],
+      "unresolved": [
+        "第7頁正文超過20組織、逾24烏克蘭組織掃描與圖表24/27的範圍未完整對應。"
+      ],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "95e39f1d742cc1cc108c2781498e3ca6a43e8d4b007d2441d5d771c289a63d3f"
+    },
+    {
+      "id": "gtg-50014",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "visual_pages_inspected": [
+        13,
+        14
+      ],
+      "fact_corrections": [
+        "約200與數千均為實際取得資料所屬的下游客戶組織，非服務客戶總數。"
+      ],
+      "unresolved": [
+        "供應商、下游客戶、圖表目標與APK等計數不同；無去重總數。"
+      ],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "7e100927051f78e8d007a8d881c15e27ddecca042d10f33f7a2d694a7c44549a"
+    },
+    {
+      "id": "gtg-10007",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "visual_pages_inspected": [
+        25,
+        26
+      ],
+      "fact_corrections": [
+        "導語保留來源的中國關聯及likely所在地判斷，避免只在台灣推演提中國。",
+        "第27–28頁明載summarized and scored，修正泛稱分類。",
+        "補上單月範圍；分開possible漏洞與操作者實驗室驗證；保留中國學生公司線索，不推政府委託。",
+        "視讀25/30；將東南亞結果與hands-on僅中國的範圍問題完整並陳，不自行解決。",
+        "刪除台灣段重複，保留推演而非已知對台行動。"
+      ],
+      "unresolved": [
+        "第25頁約50與圖表25/30未對應。",
+        "第25頁東南亞資料取得與第28頁hands-on僅限中國之關係未交代。"
+      ],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "d62a82edde7cec08698d2b3563881f816ae78cb95538c3d5f1e8829d74e0d7c1"
+    },
+    {
+      "id": "gtg-50021",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        29
+      ],
+      "visual_pages_inspected": [
+        29
+      ],
+      "fact_corrections": [
+        "刪除初輪導語重複，保留兩種已記載行為。",
+        "來源明言silently，撤回假設式「若未獲告知」。",
+        "第29頁installed a credential harvester，明確安裝行為。",
+        "for malicious use為來源用途描述，不推成每宗下游犯罪已觀察。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "abf3e4372b5f6e124ac1cbf6d629e1d15c03b4998fa448c859e2e3873f1bf766"
+    },
+    {
+      "id": "gtg-50020",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "visual_pages_inspected": [
+        30,
+        31
+      ],
+      "fact_corrections": [
+        "移除代理使用在竊取金鑰之後才開始的無據時序。",
+        "代理流程與金鑰事件分述，來源沒有明確建立先後。",
+        "移除同一無據時序。",
+        "來源access to model指存取權，未說模型權重竊取。",
+        "第30頁把26GB列在歷來旅館訂房／金融科技入侵段，明確在轉向AI之前；不補受害者名稱或細分產業。",
+        "將模型取得改為存取權，避免權重外流暗示。",
+        "視讀18/26並保留與正文未對應。"
+      ],
+      "unresolved": [
+        "第31頁圖表18/26與正文約30家公司範圍未解釋。"
+      ],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "804747791b57425e6602bab0199a0b9f8a199135446ff5b4e2ac4a2b5dd0e79c"
+    },
+    {
+      "id": "gtg-50029",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "visual_pages_inspected": [
+        35,
+        36
+      ],
+      "fact_corrections": [
+        "第34頁是target，避免把整份目標類別都當成已成功入侵。",
+        "第35頁成功指建立管理員帳號，非僅部署或完成資料外傳；只保留結果描述。",
+        "視讀20/27；未知去重狀態應寫來源未提供，不能確稱從未去重。",
+        "未知處理程序不寫成確定未去重。"
+      ],
+      "unresolved": [
+        "第35頁圖表20/27與第36頁42中至少14存取，未交代對應；來源未提供舊外洩資料與新竊資料的完整去重結果。"
+      ],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "3b1bbe8f8d3c9a7dace9492ff31d9622dc5d3a09805114156d1b3d59d35ea606"
+    },
+    {
+      "id": "gtg-04001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "visual_pages_inspected": [
+        44,
+        45,
+        47
+      ],
+      "fact_corrections": [
+        "採用初輪移除標題「多語」方向，但撤回其台灣段仍新增的翻譯說法。",
+        "第44頁明載操作者在班基，不必只保留媒體所在地；同時呈現外國經營偽裝本地與國家指揮來源歸因。",
+        "第45頁區分AI產出評分準則、操作者評分與AI去留建議；未確認解僱。",
+        "補重要能力界線：模型拒絕指名武裝分子，操作者改匿名來源，未推成安全行動已发生。",
+        "第45頁確認每日播送指本行動內容，非電台一般運作；仍不等於量測說服。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "dcbfd1d4cf4eae77e1449dd80277abab40d28ad3ef21445ddbb90547caeac88c"
+    },
+    {
+      "id": "gtg-54002",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "visual_pages_inspected": [
+        47,
+        48,
+        49
+      ],
+      "fact_corrections": [
+        "第48頁published，確認是已刊登量非生成請求量。",
+        "第47頁traced及France-based，保留來源具體歸因而非弱化為泛稱有關。",
+        "保留第48、50頁no evidence of direction by any government的原強度。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "採用白話修訂，經来源審查者補正事實、範圍及歸因；精確對照已核對",
+      "batch": "batch-01",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "8e56d1b1cecd80c24093e9b0ea0ec7aec29b91fbedcee9bb7c0c291525037b19"
+    },
+    {
+      "id": "gtg-84005",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "visual_pages_inspected": [
+        54,
+        55,
+        57
+      ],
+      "fact_corrections": [
+        "第54頁明載Claude Code製作儀表板，第55頁明載Claude用於建立與運作假帳號網絡；初輪將此全分給其他工具，須撤回。",
+        "分開人工瀏覽請求與官員帳號儀表板自報數；來源未說兩個例子必為同一帳號。",
+        "補入來源明載公司與未成功確認合約；Category Two指跨平台但無進入真實社群證據，不是零發布。",
+        "保留並具體化直接中國內容來源，不推論中國指揮。",
+        "實際查看完整圖8，確認文字与圖像差異存在；未把它標為已解。"
+      ],
+      "unresolved": [
+        "第57頁圖8稱首支且唯一影片，截圖頻道列65 videos；不採影片總量。",
+        "付費客戶、政府合約成功與真人觸及未確認。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "「真實社群」為來源Category Two的觀測限制，已存在跨平台發布。",
+        "圖8矛盾確實存在，未解；初輪將假帳號工作排除Claude的改法撤回。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "3c773e2e9f974f64c5e044336c4752fda06536a73b66a68e698d8a65d0cec44e"
+    },
+    {
+      "id": "gtg-24015",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "visual_pages_inspected": [
+        60,
+        61
+      ],
+      "fact_corrections": [
+        "多條編輯工作線並非每份原料都做所有格式；Claude處理voiceover scripts，不是製作聲音。",
+        "來源有增益主張但無人工節省對照；採用初輪以可觀察製稿機制代替省工斷言。",
+        "實際開圖9、11；兩圖說範圍仍未解，不把模型相符判斷當新證據。"
+      ],
+      "unresolved": [
+        "第60頁圖9稱無其他完全相符例，第61頁圖11又稱完全相符，範圍未明。",
+        "媒體總產出中Claude所占比重與政治效果未確認。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "已看圖9的2.09K與圖11；完全相符例子的適用範圍仍未解。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "079177f6140201cfbccfc1fc6dc9358bdad35a4003354291b253010ae795989d"
+    },
+    {
+      "id": "gtg-34001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "visual_pages_inspected": [
+        64,
+        65,
+        67
+      ],
+      "fact_corrections": [
+        "第63頁明確點名機構，初輪機構類型疑點可由來源解除；保留Anthropic為歸因者。",
+        "數十人/逾百頻道屬Manjanegh線，不是全部三機構總計或受眾數；維持Iranian platform channels原範圍。",
+        "原稿过度抽象，来源具体记载对象与攻击性质；未增加后续伤害事实。"
+      ],
+      "unresolved": [
+        "全部企畫落實程度與人物資料後續用途未完整交代。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "第63、65頁明列特定三機構；第64頁Iranian platform channels及IRGC相關頻道，支持原範圍。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "cce5b1007e1f59a955efa0c141f79d0a891044be0993943bf71a08826d009dcb"
+    },
+    {
+      "id": "gtg-54006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "visual_pages_inspected": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "fact_corrections": [
+        "第67與70頁明載操作者位於Gaibandha；初輪所在地needs_evidence已由來源解決，但不推國籍。",
+        "圖像提示probably exported屬來源推測；第69頁明載轉影音與上傳流程，兩種信心水準須分開。",
+        "補完整材料類型與數量，不改稱影片或觀眾人數；已看第67頁。",
+        "完整頁面確認月份差異，仍未解。"
+      ],
+      "unresolved": [
+        "第68頁提前一個月與第69、70頁提前數月未統一。",
+        "完整图像工具鏈、全部發布管道与更廣受眾未知。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "第67、70頁明載操作者所在地；排程月份差異未解。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "c64f25550fe54ff0b5fadcc4686f2e5b91a458313744e2592ce887a9040d922f"
+    },
+    {
+      "id": "gtg-84006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "visual_pages_inspected": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "fact_corrections": [
+        "第70頁copy writing style；第72頁voice不能獨自升格音訊複製，也避免替整個活動斷言絕無聲音能力。",
+        "中央派工likely與集中程度未核實須保留；開圖15後只確認文字與架構敘述張力，無法解釋原因。"
+      ],
+      "unresolved": [
+        "第70頁未見協調與第72、73頁共享手冊/平台描述有張力；中央控制程度未確認。",
+        "原持有人授權、真人互動量與成功招募人數未確認。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "來源明用impersonate；未交代帳號持有人授權。中央控制未知，協調描述張力未解。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "e7dacb561375f49ad43abc304d0932a6e0f844b5e9efbd4f31431879df29a9e6"
+    },
+    {
+      "id": "gtg-54004",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        75,
+        76,
+        77
+      ],
+      "visual_pages_inspected": [
+        75,
+        76,
+        77
+      ],
+      "fact_corrections": [
+        "以編者條件式能力推演取代沒有比較基準的省工增益。"
+      ],
+      "unresolved": [
+        "操作者真實身分、所屬組織與委託關係未辨明。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "第77頁interactive copy-all widget已明確，未指明獨立開發者或實際部署。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "4be2adc3fc0d2ff1266049aa40652fa060a5fb95e3b886232a581fdadbac1e65"
+    },
+    {
+      "id": "gtg-84002",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        78,
+        79,
+        80
+      ],
+      "visual_pages_inspected": [
+        78,
+        79,
+        80
+      ],
+      "fact_corrections": [
+        "採用初輪刪除省工斷言，不把外觀正式寫成程序可用。",
+        "第78頁限制同時涵蓋證詞與對象檔案；補齊文件流向的未知。"
+      ],
+      "unresolved": [
+        "第78頁瑞士組織與第79頁蘇丹人權組織的關係未交代。",
+        "證詞及人物檔案是否送達、广泛公眾注意與政策效果未確認。"
+      ],
+      "copyedit_disposition": "revised",
+      "needs_evidence_resolution": [
+        "瑞士/蘇丹組織關係來源未說明，仍未解。"
+      ],
+      "batch": "batch-02",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "98a8030b68af0ec2e0ea6e64d38b4f7142cdaddcf29e0285d22c36f5f742b988"
+    },
+    {
+      "id": "gtg-54009",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "visual_pages_inspected": [
+        83,
+        84
+      ],
+      "fact_corrections": [
+        "將推測身分限定為群體、位置與政治傾向分類。",
+        "採用初輪刪除無工時比較依據的工作量下降說法。",
+        "255以上為合成帳號相關工作；部署及滲透未確認。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "255的計數對象與部署",
+          "status": "resolved_with_limits",
+          "pdf_pages": [
+            83,
+            84
+          ],
+          "finding": "正文明記synthetic social network accounts，為相關工作數；未確認全部上線，滲透在觀察邊界外。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "ff13c55e773cf1a0837391986c85cea7e8cdfd3fbc2c97df9ba9ff7dc0afc19d"
+    },
+    {
+      "id": "gtg-14010",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "visual_pages_inspected": [
+        87,
+        88
+      ],
+      "fact_corrections": [
+        "第87頁明說non-Arabic-speaking，標題有直接依據。",
+        "將低信心的對象精確寫為承包商而非國安機關直接操作。",
+        "保留招募表格與圖示矛盾。"
+      ],
+      "unresolved": [
+        "第88頁招募成果表格Not visible to us與圖示A source paid／One tasked source的關係未解釋。"
+      ],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "不會阿拉伯語是否明示",
+          "status": "resolved",
+          "pdf_pages": [
+            87
+          ],
+          "finding": "正文直接non-Arabic-speaking。"
+        },
+        {
+          "question": "招募圖表是否同階段",
+          "status": "unresolved_source_conflict",
+          "pdf_pages": [
+            88
+          ],
+          "finding": "均標招募；表格無可見結果，圖示付款與派任，來源不說明差別。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "721780f03cdb01e9f3ed40d461ab97c85109540c507c7b4a6a81c5dce31170d1"
+    },
+    {
+      "id": "gtg-14020",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "visual_pages_inspected": [
+        90,
+        91
+      ],
+      "fact_corrections": [
+        "圖3確認一台機器30天2,475份混合文件，非人物數。",
+        "數量方法與人工比較未揭露，不換算人力節省。",
+        "保留直接台灣目標與政府關聯、自述官員身分的差別。"
+      ],
+      "unresolved": [
+        "第90頁四條工作線與第91頁五類表格關係未明。",
+        "2,475份的計算方法、是否由操作者回報，圖示未交代；只採圖示所載數量。"
+      ],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "2,475份及工作線數",
+          "status": "resolved_with_limits_and_unresolved_source_conflict",
+          "pdf_pages": [
+            90,
+            91
+          ],
+          "finding": "圖示明載單機30天2,475份成品，未揭示計算方法或是操作者回報；四條與五列表格差異未解。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "1348f106a910c5dfac7adb739d8e7dc4f09d023f8445eae060c009e63672cead"
+    },
+    {
+      "id": "gtg-14021",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "visual_pages_inspected": [
+        95,
+        96,
+        97
+      ],
+      "fact_corrections": [
+        "改稱三項活動，逐一列出查詢、分送日報、單份管控報告與手冊。",
+        "低信心對應網警身分，中信心分別對應公安偵查員兼警校研究生及浙江所在地。",
+        "第96頁是儀表板現場測試，未泛化為全工具正式部署。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "各項信心對應範圍",
+          "status": "resolved",
+          "pdf_pages": [
+            95,
+            97
+          ],
+          "finding": "網警低、公安偵查員兼警校研究生中、浙江所在地中；不是共同身分信心。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "b0bb77ad4c9e510ac495d78dcefe0ce969279272d104065a9015dd79462c5b68"
+    },
+    {
+      "id": "gtg-14022",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "visual_pages_inspected": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "fact_corrections": [
+        "同一actor不等於單一自然人，修正初輪同一人操作的過度推定。",
+        "輿情簡報定義補足政治監測與內部官方文件用途。",
+        "分開台灣交流活動被定性主權威脅與台灣媒體報導被改為敵對敘事。",
+        "15至30多篇是該流程日處理量，無觀察期間、帳號分布及效能比較資料。"
+      ],
+      "unresolved": [
+        "每日文章量的觀察期間及各帳號分布未交代。"
+      ],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "中國境內所在地",
+          "status": "resolved_with_limits",
+          "pdf_pages": [
+            98,
+            101
+          ],
+          "finding": "來源直接稱China-based，線索含語言、時段與帳號基礎設施，稿件明示來源歸類，非另行定位。"
+        },
+        {
+          "question": "每日篇數範圍",
+          "status": "resolved_with_limits",
+          "pdf_pages": [
+            98,
+            99,
+            101
+          ],
+          "finding": "該自動流程15至30多篇，非每個帳號各自數字；期間及分布未載。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "6a2fb13bd98fe1559f9b1367088c973dbaec679c65cfa46a3d0bf2a9d3019de8"
+    },
+    {
+      "id": "gtg-34007",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        101,
+        102,
+        103
+      ],
+      "visual_pages_inspected": [
+        101,
+        102,
+        103
+      ],
+      "fact_corrections": [
+        "Firefox工具已正式交付使用，描述為大量蒐集社群帳號身分資料，不補真實自然人識別成功率。",
+        "初輪只涉及這款工具過窄：來源另有其他工具交下游使用記載，但未逐項列明部署。",
+        "6,388人保留單位自述，16封禁帳號不作人數。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "取得社群身分實際功能",
+          "status": "resolved_with_limits",
+          "pdf_pages": [
+            102,
+            103
+          ],
+          "finding": "mass-harvest user identities；改大量蒐集社群帳號身分資料，不擅補去匿名機制或成功辨識自然人。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "bd03dfafaddb76649a9437587deb242bcc6455102cd5e7242c1db9f6bf23696e"
+    },
+    {
+      "id": "gtg-50027",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        103,
+        104,
+        105
+      ],
+      "visual_pages_inspected": [
+        103,
+        104,
+        105
+      ],
+      "fact_corrections": [
+        "撤回初輪把移除令狀條件弱化為希望或要求的修改；第104頁明載已移除。",
+        "限定於電話號碼人物檔案功能，補上無限期保留及定向截聽仍需令狀的區別。",
+        "巴馬科獨立顧問身分保留likely；平台本機部署不是先以Claude運作再轉移。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised; most plain-language edits accepted; unsupported scope changes corrected",
+      "needs_evidence_resolution": [
+        {
+          "question": "移除令狀是否完成",
+          "status": "resolved",
+          "pdf_pages": [
+            104
+          ],
+          "finding": "正文與表格皆was removed；僅LLM人物檔案功能，定向截聽仍需令狀。"
+        }
+      ],
+      "batch": "batch-03",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "cb92281421c178ba4e885d8b827b08d4816e4eaf422bf20571b972a4917ffc45"
+    },
+    {
+      "id": "gtg-30004",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        105
+      ],
+      "visual_pages_inspected": [
+        105
+      ],
+      "fact_corrections": [
+        "補明自動化人物研究流程已建立並運行，而非只有請求。",
+        "程式偽裝與妨礙分析保留来源的可能意圖，未宣稱驗證有效。",
+        "刪去無比較基準的省工與擴大規模斷言。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "b6f836bddf7a245ee05f162ae179bec3c1fdfd6ef949d6b42e036b3d33527c2d"
+    },
+    {
+      "id": "gtg-30005",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        106,
+        107
+      ],
+      "visual_pages_inspected": [
+        106,
+        107
+      ],
+      "fact_corrections": [
+        "補明對美國海軍的目標建議與研究手冊，避免降格成普通公開資料整理。",
+        "第106頁直接記載為伊朗國家系統開發；不推定政府委託、指揮或部署。",
+        "244保留為私人群組人數，無受害人數換算。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "8cbe5aeb95adcd4e7e1d493284a8362ca52acd56f72caf8951cfbba1f462124c"
+    },
+    {
+      "id": "gtg-30006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "visual_pages_inspected": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "fact_corrections": [
+        "補回目標為伊朗境內人士。",
+        "將工程與測試、非即時攻擊限定擴到整場Claude活動。",
+        "single-operator譯為单一操作者，撤回初輪「一名成員」推斷；9／10補明直接請求分母。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "59e64fe15c15ff826c70ad7d556cda699ecc60420ac8c7438986ace0ee3247a4"
+    },
+    {
+      "id": "gtg-87001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "visual_pages_inspected": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "fact_corrections": [
+        "來源範圍擴至第115頁，涵蓋延續表格。",
+        "保留三計畫進度、似乎試射失敗與無可用裝置證據。",
+        "明記112頁整場行動停止與113／115頁離線工具的來源表述張力，不擅斷後續狀態。",
+        "移除未單獨有據的文件撰寫概括，改回程式、研究與審查。"
+      ],
+      "unresolved": [
+        "第112頁稱封禁關閉整場行動；第113與115頁記載離線工具可不依赖Claude存在，整體後續未明。"
+      ],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "b6c580a114eb6012977bcb27946c4ce1c0fe35a8e9ac2d7c48b8653cc0e1e4d0"
+    },
+    {
+      "id": "gtg-17001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        115,
+        116
+      ],
+      "visual_pages_inspected": [
+        115,
+        116
+      ],
+      "fact_corrections": [
+        "刪除「AI審查角色認為合理」無據敘述，改為實際記載的批判與修訂。",
+        "自稱美國國防OEM、來源評估中國製造商關聯及中國海軍提案對象分開。",
+        "縮時只保留來源定性評估，沒有數量比較。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "6be868408df8a505c0a344bf945ee14e668ef6aec6c52c7c383e8f1c748f6b15"
+    },
+    {
+      "id": "gtg-27005",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        117,
+        118,
+        119
+      ],
+      "visual_pages_inspected": [
+        117,
+        118,
+        119
+      ],
+      "fact_corrections": [
+        "標題、導語改開發板測試，避免原型誤讀為完整飛行器。",
+        "圖表成熟度明確為3至4級與構想／模擬，沒有整體測試或戰場部署證據。",
+        "俄方資助仍為未核實自述；保留小型接案團隊是來源評估。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "2b956797761bff20da10a2bc53d8ed8bfcc24b8bb846c51ef20ac28c5fcbb9ed"
+    },
+    {
+      "id": "gtg-17002",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "visual_pages_inspected": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "fact_corrections": [
+        "數量單位確定為約16模組與12版本，另有12個台灣模擬目標。",
+        "圖121的數字是對話提及次數，圖122是情境資料非即時ISR。",
+        "保留中國軍工研究者及解放軍軍事科學院的來源關聯評估，未推定指揮或採用。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話與證據界線修訂，依原PDF補正上述事實與範圍",
+      "completed_at": "2026-10-13",
+      "batch": "batch-04",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": true,
+      "full_sha256": "bc6e297059a37f16d6434ec376c2c560574513f3acd34c6a26a8bfbb627e63e2"
+    },
+    {
+      "id": "gtg-27006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        123,
+        124,
+        125,
+        126
+      ],
+      "visual_pages_inspected": [
+        123,
+        124,
+        125,
+        126
+      ],
+      "fact_corrections": [
+        "補回外部工具、市價彙整及每標案約40品項的範圍。",
+        "保留中國／香港供應鏈角色及國民衛隊醫院明確軍事用途。",
+        "引用合約與已出貨說法不等於獨立核驗。"
+      ],
+      "unresolved": [
+        "來源所述已出貨訂單的獨立物流紀錄及未確認訂單的最終用途未公開。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "9235d73ec9b1fbc672c12e79cc8cc09c69f415a317f524ab0af4fcce5dd2af7e"
+    },
+    {
+      "id": "gtg-17003",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        126,
+        127,
+        128
+      ],
+      "visual_pages_inspected": [
+        126,
+        127,
+        128
+      ],
+      "fact_corrections": [
+        "23頁報告與約45頁附錄不強行合併為同一份文件。",
+        "保留中國所在地與自稱高層讀者，state-grade為來源方法評價。"
+      ],
+      "unresolved": [
+        "23頁報告與約45頁附錄是否屬同一交付物未明；讀者是否收到或採用簡報未明。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "d547c2c5760d5e685cc02b8da25897e5d0674e95e7d6a2f060dd79a7deca4c13"
+    },
+    {
+      "id": "biological-case-1",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "visual_pages_inspected": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "fact_corrections": [
+        "攔下對象為模型請求；平台與研究者分開。",
+        "軍民機構關聯、數日恢復及研究材料推論均歸於來源。"
+      ],
+      "unresolved": [
+        "後續研究材料支持來源推論不限於申請，具體實驗進度和成果仍無公開獨立驗證。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "5d30c6f198848d70983e0adf9d8f0e308ce5d444dca0ff52eead25e878fcdcdd"
+    },
+    {
+      "id": "biological-case-2",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        130,
+        133,
+        134,
+        135
+      ],
+      "visual_pages_inspected": [
+        130,
+        133,
+        134,
+        135
+      ],
+      "fact_corrections": [
+        "補回資料分析能力。",
+        "Sonnet4轉Haiku4.5明載因前者退役，不寫成某次拒絕後換模型。",
+        "早期計畫、可能材料接觸與來源對實驗計畫的推論並列。"
+      ],
+      "unresolved": [
+        "來源第134頁同時稱計畫很早期並視為實體實驗研究計畫存在的證據；未能核實具體實驗進度。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "002d7df748598bef4ee4137adf397035c6c76935c110b57ee7e42ff1bd5f31da"
+    },
+    {
+      "id": "biological-case-3",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        130,
+        135
+      ],
+      "visual_pages_inspected": [
+        130,
+        135
+      ],
+      "fact_corrections": [
+        "一次run改為起草任務，不宣稱只有一則請求。",
+        "實驗室設施是申請書自述，不說來源完全沒有資料。"
+      ],
+      "unresolved": [
+        "申請書所述國家關聯實驗室與設施、研究結果未公開獨立核验。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "58b4d9cb7ecb2ebf3b98b96cc3243a58b88fbe7b5328ff31195c355178fa7044"
+    },
+    {
+      "id": "biological-case-4",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        130,
+        136,
+        137
+      ],
+      "visual_pages_inspected": [
+        130,
+        136,
+        137
+      ],
+      "fact_corrections": [
+        "生成式計算流程不泛化為已完成篩選。",
+        "未知限於執行與實體驗證，不否定所有計算測試。"
+      ],
+      "unresolved": [
+        "來源未展示計算流程各步驟是否實際執行及其驗證結果；實體成果未明。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "b23677d8cb3ae73f09524eb55acf9078bd8b97f493dfd329b404faf5be6bfd42"
+    },
+    {
+      "id": "biological-case-5",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        130,
+        136,
+        137
+      ],
+      "visual_pages_inspected": [
+        130,
+        136,
+        137
+      ],
+      "fact_corrections": [
+        "來源支持合寫報告及已模糊文本，不只是提出要求。",
+        "進度報告讀者與公開發布未明，不稱對外說明。"
+      ],
+      "unresolved": [
+        "來源描述的季度報告未完整公開，讀者與後續使用未明；實體成果未明。"
+      ],
+      "copyedit_disposition": "revised",
+      "batch": "batch-05",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "a3f2ea30628c2271c96dd3bb9974135f7aa03c91340491557b7598d2dc884fa7"
+    },
+    {
+      "id": "gtg-15001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "visual_pages_inspected": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "fact_corrections": [
+        "補回20多個App、Claude協助建置與美國目標使用者；圖文確認配對3比1和各數字分母，後台預錄視訊不擴寫為逐次已騙成即時視訊。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；補回20多個App、Claude協助建置與美國目標使用者；圖文確認配對3比1和各數字分母，後台預錄視訊不擴寫為逐次已騙成即時視訊。",
+      "needs_evidence_resolution": {
+        "status": "resolved_with_limits",
+        "pdf_pages": [
+          140,
+          141
+        ],
+        "note": "後台在無真人時fabricated likes, visitors及pre-recorded video；圖示確認真假身分混用，未證明每次預錄影片如何呈現或使用者誤認結果。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "a75378366e37ec96f3848fba638edb8f702fbc9a2b1716d4addb72807e83201e"
+    },
+    {
+      "id": "gtg-16005",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        143,
+        144,
+        147,
+        148
+      ],
+      "visual_pages_inspected": [
+        143,
+        144,
+        147,
+        148
+      ],
+      "fact_corrections": [
+        "明示商業供應商角色；強化學習環境及Qwen用途可由來源支持，但交換量不是能力增幅；不以一般章節推定每個帳號造假細節。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；明示商業供應商角色；強化學習環境及Qwen用途可由來源支持，但交換量不是能力增幅；不以一般章節推定每個帳號造假細節。",
+      "needs_evidence_resolution": {
+        "status": "resolved_as_source_claim",
+        "pdf_pages": [
+          147,
+          148
+        ],
+        "note": "來源以exchanges計數並高信心歸因，明稱SFT資料用於Qwen3.5/3.6/3.7及推理能力受益；未提供逐筆計數定義、完整資料集或可重做增益測試。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "282ced9ba28cdace747c922266f897f2f4d9e52c896054958f94bd4af56d8cc2"
+    },
+    {
+      "id": "gtg-16002",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        148,
+        149
+      ],
+      "visual_pages_inspected": [
+        148,
+        149
+      ],
+      "fact_corrections": [
+        "近30萬請求應引148頁；不把149頁個案例子硬套十天樣本，補回中國軍方可能關聯及國企背景並保留通知狀態的來源張力。"
+      ],
+      "unresolved": [
+        "來源一方面稱客戶以為使用Kimi，一方面明說不知道Moonshot是否通知客戶；保留這個不確定性。"
+      ],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；近30萬請求應引148頁；不把149頁個案例子硬套十天樣本，補回中國軍方可能關聯及國企背景並保留通知狀態的來源張力。",
+      "needs_evidence_resolution": {
+        "status": "resolved_with_limits",
+        "pdf_pages": [
+          148,
+          149
+        ],
+        "note": "近30萬明為十天轉送客戶請求；監控及live credentials為另列樣本，無獨立憑證有效性測試；通知未知仍保留。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "0db0030cbbf97be3ea1e6657455d009962f7967bd61fefa0e86d8e5785134022"
+    },
+    {
+      "id": "gtg-16001",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        149,
+        150
+      ],
+      "visual_pages_inspected": [
+        149,
+        150
+      ],
+      "fact_corrections": [
+        "補回中國科技公司、中國公安及俄國國防相關機關的下游資料背景；不推為企業控制或委託關係，1210萬是相關交換量。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；補回中國科技公司、中國公安及俄國國防相關機關的下游資料背景；不推為企業控制或委託關係，1210萬是相關交換量。",
+      "needs_evidence_resolution": {
+        "status": "resolved_with_limits",
+        "pdf_pages": [
+          150
+        ],
+        "note": "1210萬是Scale of distillation attacks attributable to DeepSeek，並非敏感資料請求數或客戶人數。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "209d7dfea25064c433d6e433596bca85b35b45a52722390638a178cbdf3f5b6d"
+    },
+    {
+      "id": "gtg-16006",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        150,
+        151
+      ],
+      "visual_pages_inspected": [
+        150,
+        151
+      ],
+      "fact_corrections": [
+        "將網路能力明確改為資安題表現；770609為清理流程交換；likely所修飾的是廣泛運用範圍，不能抹去已記載訓練用途；防護效果限Fable及來源觀察。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；將網路能力明確改為資安題表現；770609為清理流程交換；likely所修飾的是廣泛運用範圍，不能抹去已記載訓練用途；防護效果限Fable及來源觀察。",
+      "needs_evidence_resolution": {
+        "status": "resolved_with_limits",
+        "pdf_pages": [
+          151
+        ],
+        "note": "Fable資安防護被指使原嘗試受阻，智譜轉向Opus4.6和另一公司模型；不可改寫模型能力下降或阻止入侵。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "93475e50a73f76bb656ed188efdd601da39df1f9814a8d2d6ad921d20e6a6b3a"
+    },
+    {
+      "id": "gtg-16008",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        151,
+        152
+      ],
+      "visual_pages_inspected": [
+        151,
+        152
+      ],
+      "fact_corrections": [
+        "區分保存重送與直接代答；補時間窗並保留來源沒有美國人資料暴露跡象的限制，平台客群不等於資料國籍。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；區分保存重送與直接代答；補時間窗並保留來源沒有美國人資料暴露跡象的限制，平台客群不等於資料國籍。",
+      "needs_evidence_resolution": {
+        "status": "resolved_as_source_claim",
+        "pdf_pages": [
+          152
+        ],
+        "note": "原文used to reconstruct/converted/used to generate/used to judge描述已用於各工作，不只是提示要求；未獨立驗證品質或後續模型成果。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "21c9f17e9564a247ef6b0a095a5d9ab702fc38df2c1491fb6ba3178c924ef741"
+    },
+    {
+      "id": "gtg-16012",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        144,
+        152,
+        153
+      ],
+      "visual_pages_inspected": [
+        144,
+        152,
+        153
+      ],
+      "fact_corrections": [
+        "確認購買對話、編寫蒸餾流程及啟動監看訓練均明確歸於商湯；保留來源主張、授權和成效限制。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；確認購買對話、編寫蒸餾流程及啟動監看訓練均明確歸於商湯；保留來源主張、授權和成效限制。",
+      "needs_evidence_resolution": {
+        "status": "resolved_as_source_claim",
+        "pdf_pages": [
+          152,
+          153
+        ],
+        "note": "153頁首句主詞SenseTime，明指used Claude to write pipeline and launch and monitor training runs；不屬MiniMax。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "8fa040255c3bfdfb15a96646c96eed5747a5fe7e01d2e34a0c6ecea666a47ead"
+    },
+    {
+      "id": "gtg-16003",
+      "status": "verified_with_limits",
+      "pdf_pages_read": [
+        143,
+        144,
+        152,
+        153
+      ],
+      "visual_pages_inspected": [
+        143,
+        144,
+        152,
+        153
+      ],
+      "fact_corrections": [
+        "保留來源對空殼公司母子關係的直接指稱，將模型範圍限定Anthropic及OpenAI；蒐集訓練目的仍為推測，不搬用商湯行為。"
+      ],
+      "unresolved": [],
+      "copyedit_disposition": "revised: 採用白話和分工調整，依來源補正；保留來源對空殼公司母子關係的直接指稱，將模型範圍限定Anthropic及OpenAI；蒐集訓練目的仍為推測，不搬用商湯行為。",
+      "needs_evidence_resolution": {
+        "status": "resolved_as_source_claim",
+        "pdf_pages": [
+          153
+        ],
+        "note": "來源直接稱MiniMax built via shell company且不揭露與parent company關係；公司歸因是來源斷言，訓練目的則evidence suggests。"
+      },
+      "batch": "batch-06",
+      "copyedit_complete": true,
+      "evidence_review_complete": true,
+      "copyedit_report_recovered": false,
+      "full_sha256": "9af19f65a89d740c6f4cd1a6dd2202c3776a835de4ed23104ae418e98d7ac7ff"
+    }
+  ]
+}

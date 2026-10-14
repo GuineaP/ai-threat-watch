@@ -1,0 +1,486 @@
+{
+  "updated_at": "2026-10-10",
+  "title": "給台灣讀者的啟發",
+  "entries": [
+    {
+      "id": "gtg-20006",
+      "kind": "case",
+      "lead": "Anthropic 記載，一批使用者讓 Claude 接續協助入侵、整理失竊資料與修改工具。資安工具偵測到惡意程式後，AI 程式還會協助修改、重新建置及部署。這些人將 AI 納入可反覆執行的工作流程，讓它接續處理多項任務。（PDF 第6–9頁）",
+      "keypoint_count": 1,
+      "body_sha256": "a35e3aac914ce94c70fd747e90ba14ab60f0ad8f9f138507b74b3572bf2930c8",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-50014",
+      "kind": "case",
+      "lead": "Anthropic 記載，多組疑似與 ShinyHunters 犯罪活動有關的 Claude 使用者，讓 AI 協助分析受害系統、撰寫資料匯出程式，並整理取得的資料。這些人利用從服務商竊得的存取權限，進一步攻擊服務商的客戶。（PDF 第12–14頁）",
+      "keypoint_count": 1,
+      "body_sha256": "140f76052ea59d94891a4763360cc8b2d16c105020e362b59306608f94ec8c21",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "案例類比"
+      }
+    },
+    {
+      "id": "gtg-10007",
+      "kind": "case",
+      "lead": "Anthropic 記載，一批使用中文、可能住在中國湖南長沙的 Claude 使用者，讓多個 AI 程式分工研究漏洞、偵察系統與蒐集資料。部分工作在人離開電腦後仍持續運作，還會保存進度供下一輪接續。報告既看到研究測試，也記載了實際資料竊取。（PDF 第24–28頁）",
+      "keypoint_count": 1,
+      "body_sha256": "6f66760bf0c9d6e47664789064676c8c448e2811ecbe48a1adda834177004400",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-50021",
+      "kind": "case",
+      "lead": "Anthropic 記載，一群服務轉售者宣稱提供優惠 Claude 服務，卻把客戶的問題交給另一個 AI 回答。業者不只暗中替換模型，還竊取並轉售客戶的 Anthropic 帳號通行資訊。（PDF 第29頁）",
+      "keypoint_count": 1,
+      "body_sha256": "8d935d78541987e581a3b6eadc081ff8e149a233985963e11d0fb5ca518f2aa5",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-50020",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名使用者從 AI 業者的測試環境竊取服務金鑰，再重用這些權限攻擊其他公司。報告也記載，這名使用者讓多個能連續使用工具執行任務的 AI 程式，同時偵察、測試與重新檢查結果，部分工作不需即時看管。這類程式通常稱為「AI 代理」。（PDF 第30–32頁）",
+      "keypoint_count": 2,
+      "body_sha256": "66d83309025308041a35a8b0ca653127a56130dcb401cb2e7b795bca0c08099c",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "案例類比"
+      }
+    },
+    {
+      "id": "gtg-50029",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名 Claude 使用者以歐洲政黨、媒體、智庫及其服務商為目標，在部分入侵得手後，把新取得的資料與既有外洩資料結合，做成可按姓名搜尋的平台。Claude 協助開發與修正工具，也參與資料處理；資料竊取與可搜尋服務都已有來源記載。（PDF 第34–36頁）",
+      "keypoint_count": 1,
+      "body_sha256": "3e9d6f93d4627ddad7e96db47bf85645c017e72f2189b3b782e4ed56ad8d9519",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-04001",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名在中非共和國首都班基、使用俄語的操作者，讓 Claude 依指定政治方向撰寫廣播腳本、簡報與社群貼文，也協助人事文件。內容透過 Radio Lengo Songo 等當地媒體傳播。報告評估，這是一項由俄羅斯國家指揮、刻意呈現為本地媒體工作的秘密行動。（PDF 第44–47頁）",
+      "keypoint_count": 2,
+      "body_sha256": "87474716d86ee283c3008b38cd0d3fb919e5f11e75f5ccfa06bd58d93f2a8c5c",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-54002",
+      "kind": "case",
+      "lead": "Anthropic 記載，一個商業網絡用 Claude 製稿，發布到約七十個看似各自獨立的新聞網站。使用者決定立場與格式，Claude 把材料改成不同語氣、語言與政治角度的文章。來源記載，這個網絡已刊登至少8,913篇文章，涵蓋約二十種語言。（PDF 第47–49頁）",
+      "keypoint_count": 1,
+      "body_sha256": "5a635855e280a8b881c66e3c60f73a8473a2ccb38829284b9806f1d05703dc63",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-84005",
+      "kind": "case",
+      "lead": "Anthropic 記載，一個以馬來西亞為主要目標的政治操作平台，用 Claude 建立選民分析與假帳號管理系統，也改寫新聞、製作不實指控。平台業者把這些功能整合成付費服務，讓使用者在同一個平台上分析資料、管理操作並製作文稿。（PDF 第53–55頁）",
+      "keypoint_count": 1,
+      "body_sha256": "513efea77cc06839b4f1121ee9af1000ac0ed270959f23fea60514886674c47d",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-24015",
+      "kind": "case",
+      "lead": "Anthropic 記載，四個帳號的使用者讓 Claude 改寫、翻譯及製作播報文字。使用者提供新聞材料與格式，Claude 協助生成不同語言與媒體需要的版本。Anthropic 以高信心評估，俄羅斯國有或國家資助媒體使用了部分產出，其中至少一項材料實際播出。（PDF 第58–60頁）",
+      "keypoint_count": 2,
+      "body_sha256": "272163da0848fc3d76c7bfbec2215bcfbfc158639a0ca948262774c5bfd9ef87",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-34001",
+      "kind": "case",
+      "lead": "Anthropic 記載，三個與伊朗國家宣傳機構相關的帳號，使用 Claude 做企畫、工作手冊與多語內容。帳號使用者設定政治立場，Claude 協助把要求寫成工作手冊和文稿；部分內容已在其他平台散布。（PDF 第62–65頁）",
+      "keypoint_count": 2,
+      "body_sha256": "b9a9fb4bb5f60175aa6174c88545905601a920f6e44e98b62a6edfb6e4ae7f8f",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-54006",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名位於孟加拉 Gaibandha 地區的使用者，把 Claude 批次寫稿、影音製作與發布排程串成一套流程。使用者要求內容有利於人民聯盟，並攻擊政治對手。Claude 寫標題與不實內容，其他工具接著製作聲音、影片並上傳。（PDF 第67–70頁）",
+      "keypoint_count": 3,
+      "body_sha256": "76e57f377ad4ad454a1ecfc8b848cc57764c0b77ba2331d388ce1dd85864fdaa"
+    },
+    {
+      "id": "gtg-84006",
+      "kind": "case",
+      "lead": "Anthropic 記載，一項與伊朗政治反對派組織 MEK、NCRI 有關的活動，使用 Claude 模仿一名運動者的文字風格，以這名運動者的名義與聯絡人對話。使用者提供過往貼文與管理規則，Claude 據此接續文字互動；依 Anthropic 所知，對話對象不知道有 AI 協助。（PDF 第70–72頁）",
+      "keypoint_count": 1,
+      "body_sha256": "41013cdddd32a15279a7745b3b0a433c20defb1e9f31b3876497aeaf03bf9bb5",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-54004",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名身分未明的 Claude 使用者先指定針對肯亞政治的立場、題目與標籤，再要求 AI 每批生成五十則貼文，營造普通人自然發言的樣子。這名使用者決定要說什麼，Claude 將同一方向改成不同寫法。（PDF 第75–76頁）",
+      "keypoint_count": 2,
+      "body_sha256": "a2b6cf89001bd1a4bc6d5b3c79f17835cedc29df4bae3a6f0585ee85d99bf3f9",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-84002",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名 Claude 使用者製作人權報告、人物檔案與預定在聯合國人權理事會發表的證詞，也維持約三百個不真實社群帳號。使用者設定政治立場與文件要求，再讓 Claude 持續製稿。部分材料冒用真實團體身分，營造獨立見證的外觀。（PDF 第78–79頁）",
+      "keypoint_count": 2,
+      "body_sha256": "3577451cf30a753986325de17463a1ac7d5a688214d26c9329aa2c361b229ef1",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-54009",
+      "kind": "case",
+      "lead": "Anthropic 記載，一個商業監控平台的使用者把社群貼文分批交給 Claude，要求推測發文者所屬的群體、位置與政治傾向，再整理成阿拉伯語簡報。Claude 負責分類貼文與製作簡報，使用者可以按同一套要求，將不同貼文整理成對發文者的描述。（PDF 第82–84頁）",
+      "keypoint_count": 2,
+      "body_sha256": "938f8e821e8e4ffe240084513075afe950e3d158cbfc03ea3f2f7a50cd8bef15",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-14010",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名以中文操作 Claude 的使用者，先整理維吾爾社群資料，再透過敘利亞阿拉伯語接觸對象，嘗試以報酬換取情報。Claude 協助即時翻譯、使用當地慣用語句與檢查訊息，讓不會當地語言的人也能繼續對話。（PDF 第86–88頁）",
+      "keypoint_count": 2,
+      "body_sha256": "c48d5101f56738c49a8248fe7ecdf25fd12f6e8fdebcf3a7ed96a793900e34c1",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-14020",
+      "kind": "case",
+      "lead": "Anthropic 記載，一批 Claude 使用者把多平台、多語言的宗教人物與場所資料，整理成固定格式的中文檔案。台灣基督長老教會領導層明確出現在目標中。Claude 負責翻譯、摘要、撰稿與排版，使用者則指定調查人物、政治立場與文件格式。（PDF 第89–91頁）",
+      "keypoint_count": 2,
+      "body_sha256": "419d1d38aeed43baa5e6ffbedf3ed97c3f16719ffa85a62848d37dd37fcd9297",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-14021",
+      "kind": "case",
+      "lead": "Anthropic 記載了三項與中國地方公安或國安單位相關的活動：使用者讓 Claude 查詢、整理監控資料，撰寫日報與人物管控建議，也製作內部手冊。各項活動的機關與身分關聯，是 Anthropic 根據使用紀錄作出的評估。Claude 按照使用者提供的名單、格式與規則，反覆製作這些文件。（PDF 第93–97頁）",
+      "keypoint_count": 2,
+      "body_sha256": "47ed3bda19d713a08f06a38c1b6544a9d51cc4eea47bfc5bb6aabcf3a786f1a9",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-14022",
+      "kind": "case",
+      "lead": "Anthropic 將本案列為中國境內的活動：使用者把新聞與社群內容交給 Claude，改成政府格式簡報，監測範圍直接包含台灣政治人物、媒體與兩岸交流活動。使用者指定政治立場與用語，Claude 再按這些要求判斷內容有多敏感，並改寫、排版。（PDF 第98–101頁）",
+      "keypoint_count": 2,
+      "body_sha256": "0230d25f145aba4f3c8f4e1a4b120e291e22f9c0b25d48f3f6f6ddc9c21c9771",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-34007",
+      "kind": "case",
+      "lead": "Anthropic 記載，兩個與伊朗安全機構相關的單位，使用 Claude 開發監控軟體，連到同一套名為 Arman 的人物管理系統。使用者提出系統與資料需求， Claude 協助開發操作介面、修正程式，並分析人際關係；其中一款工具已投入使用。（PDF 第101–103頁）",
+      "keypoint_count": 2,
+      "body_sha256": "6547e314aa94bb868e20ad066880f83ff125d22d8b7ef47c63c567232fb2d1e4",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-50027",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名 Claude 使用者為馬利國家情報局（ANSE）建置監控平台；這名使用者可能是位於首都巴馬科的獨立顧問。使用者設定目的與系統要求，Claude 協助設計和編寫軟體；完成後，平台在當地投入使用，由當地電腦上的 AI 模型持續運作。（PDF 第103–105頁）",
+      "keypoint_count": 2,
+      "body_sha256": "50fe3992432195fda4d1702ee445dc1b01e10e9995fcc2ee5045dc777618c261",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-30004",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名與伊朗有關聯的使用者，利用 Claude 整理以色列人士與海外猶太社群組織的公開資料，也請它協助修改惡意程式。使用者決定名單與工作方向，Claude 協助補充公開資料、建立人物檔案及修改程式。（PDF 第105頁）",
+      "keypoint_count": 2,
+      "body_sha256": "14cc6a43954fac0d7f5d428ca9cc10c0129b08f571cb0674dd1009c183d977fc",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-30005",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名與伊朗有關聯的使用者，利用 Claude 整理美國海軍的公開資訊，製作目標建議與研究手冊。同一帳號也用 Claude 為伊朗國家系統設計監控軟體元件。使用者設定研究問題，Claude 協助蒐集整理資料、分析與軟體開發。（PDF 第106–107頁）",
+      "keypoint_count": 2,
+      "body_sha256": "4602f0409d0ab1a12e46b2b07f839891e231367050213ec7b2c1ae2d425d9397"
+    },
+    {
+      "id": "gtg-30006",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名被報告描述為伊朗行動者的使用者，針對伊朗境內人士開發監控工具與假冒頁面，並把開發工作拆成多段任務，讓 AI 協助編寫、測試不同軟體元件。Claude 常拒絕明確表露惡意的要求，但當使用者把任務拆成看似一般的開發工作時，模型的拒絕情況就較不一致。（PDF 第107–110頁）",
+      "keypoint_count": 2,
+      "body_sha256": "87a96368093b16e584ed40e0f645cbb7fdb7be8c5880cc03177f8a7546a73892",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-87001",
+      "kind": "case",
+      "lead": "Anthropic 記載，葉門北部一個小組在三項導引武器計畫中使用 Claude。「導引」是讓武器在飛行中調整方向。小組提供專案與硬體，Claude 協助寫程式、研究資料、審查與分析故障原因，持續參與不同階段的研發工作。（PDF 第112–115頁）",
+      "keypoint_count": 2,
+      "body_sha256": "7c09a08224ff3dcdb5bc441d958c31f532a2f377d0dcfeb8bb1953e823959e06",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-17001",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名位於中國的使用者，利用 Claude 準備反魚雷系統規格、超過二百頁的中文提案，以及比較美國系統的簡報。反魚雷系統用於對付水下來襲的魚雷。Claude 協助寫稿、模擬審查與修訂，也參與部分軟體工作。（PDF 第115–116頁）",
+      "keypoint_count": 2,
+      "body_sha256": "cbaa3d51c5f0cc939836cd6e1a3307c9cb23b9005c27819dc020b4a9ff248783"
+    },
+    {
+      "id": "gtg-27005",
+      "kind": "case",
+      "lead": "Anthropic 記載，一個可能位於俄羅斯的小型接案團隊，使用 Claude 編寫與修改自主無人機群軟體。Claude 協助程式開發，團隊則以模擬及實體開發板測試產出。 報告記錄的是早期軟體實作與硬體測試，不能推成完整無人機群已通過飛行測試。（PDF 第117–119頁）",
+      "keypoint_count": 2,
+      "body_sha256": "4d7cc7b957d169d6603f4611c403a250f83b7a15474d1544a88b3e6e883f00d6",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "gtg-17002",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名位於中國的使用者，利用 Claude 開發電子戰軟體，並將預設模擬情境改為台灣的十二個目標。使用者決定用途與情境，Claude 協助開發計算功能、製作操作介面及撰寫分析文件。（PDF 第119–122頁）",
+      "keypoint_count": 2,
+      "body_sha256": "21a2392685921c876a23fca4979235c0dbba79572cf7b85e76bcbcae881b0c66",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-27006",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名自稱莫斯科設計局採購經理的使用者，請 Claude 協助整理供應商資料、詢價信、招標文件與試算表。使用者設定貨品與交貨要求，Claude 協助以不同語言溝通與整理文件。（PDF 第123–126頁）",
+      "keypoint_count": 2,
+      "body_sha256": "d671c50769be719b6e02294c5ec3c7b6d321d6c367598e06f5d5d6aba78ccd3a"
+    },
+    {
+      "id": "gtg-17003",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名位於中國、自稱帶領三人情報寫作團隊的 Claude 使用者，整理定向能武器的公開資料。定向能武器是把能量集中到目標上發揮作用的武器。Claude 協助搜尋資料、比較來源，並整理中文簡報與後續要追蹤的事項。（PDF 第126–128頁）",
+      "keypoint_count": 2,
+      "body_sha256": "394aa3192e30bd97f1867dc01f993a4a3027e3546a25a354ee3da0ae536ecb2b"
+    },
+    {
+      "id": "biological-case-1",
+      "kind": "case",
+      "lead": "Anthropic 記載，Claude 的安全機制攔下了一份高風險病毒研究經費申請的相關請求。研究者使用的轉接平台隨後調整安排，把部分敏感請求交給其他模型；Claude 仍協助平台程式與研究文稿的編修。（PDF 第131–133頁）",
+      "keypoint_count": 2,
+      "body_sha256": "cb0d5b3ae404976a02582d7b2684d0079467b51e2e97594e89b7fc35d23c8e96"
+    },
+    {
+      "id": "biological-case-2",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名研究者持續數週使用 Claude 整理禽流感文獻、分析資料、規劃研究及撰寫文稿。研究者提出方向與材料；Anthropic 認為研究仍在早期，AI 的幫助主要集中在上述工作。（PDF 第133–135頁）",
+      "keypoint_count": 2,
+      "body_sha256": "6a9266b9afc8b2a34ed1dd7c487a560a2cffd631e1edbe98f419bb13b430cd35"
+    },
+    {
+      "id": "biological-case-3",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名研究服務的客戶透過轉接平台，使用 Claude Opus 5 在約一小時內起草病毒研究經費申請書。客戶決定題目與用途，Claude 則協助撰寫研究假說、計畫與申請文字。（PDF 第135頁）",
+      "keypoint_count": 2,
+      "body_sha256": "3550a775c9eabb42b44c26e25e1170351eeec65b4aa6000f7804559f88775f23"
+    },
+    {
+      "id": "biological-case-4",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名研究者使用 Claude 整理動物毒素資料，並建立在電腦上生成候選分子、調整其特性的流程。候選分子是研究者打算進一步研究的對象。研究者設定治療目標、提供材料，Claude 則協助整理資料與建立計算流程。（PDF 第136–137頁）",
+      "keypoint_count": 2,
+      "body_sha256": "ff3c26d32744c4843a3ee06eb1a7f8cfeaaa52da02774b1c9605178aa5eee151"
+    },
+    {
+      "id": "biological-case-5",
+      "kind": "case",
+      "lead": "Anthropic 記載，一名研究者使用 Claude 協助以電腦重新設計研究分子，並撰寫季度進度報告。研究者還要求在文稿中模糊描述部分研究對象，讓 Claude 同時參與研究工作與進度說明。（PDF 第136–137頁）",
+      "keypoint_count": 2,
+      "body_sha256": "8a4839a0086234edbf695241b909359b6250724247d5f254864218acfaec8804"
+    },
+    {
+      "id": "gtg-15001",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 記載，一家位於中國的工作室，用 Claude 協助建置20多個交友 App，並在服務中混用 AI 人物與真人接案者，卻宣稱交談對象都是真人。Claude 負責接續文字對話，真人負責視訊與社群互追等互動。（PDF 第139–142頁）",
+      "keypoint_count": 2,
+      "body_sha256": "1960a0cc73eecb965b55f82fe9a05f2fb81290848e4be8fea504c5fee6cac2cc",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-16005",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，一批與阿里巴巴有關聯的操作者，大量提問並保存回答中的推理文字，供 Qwen 模型訓練。來源記載2026年5至7月逾1.51億次交換。（PDF 第147–148頁）",
+      "keypoint_count": 2,
+      "body_sha256": "86a1173cd1b2614c237d2850422b28ecdc11e8d0e382c09f57fef9685c701fa1"
+    },
+    {
+      "id": "gtg-16002",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，Kimi 的開發公司 Moonshot AI 將部分客戶問題轉交 Claude 回答，再把答案交回客戶，並保存部分對話供訓練。Anthropic 表示，不知道 Moonshot 是否告知客戶這項安排。（PDF 第148–149頁）",
+      "keypoint_count": 1,
+      "body_sha256": "7cb5953069e064e1e98573f6f54a02c363b1c746533da42f5b31b8fdcc5be960",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-16001",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，DeepSeek 將部分來自程式輔助工具的客戶問題轉交 Claude 回答，並取得 Claude 生成的推理文字供訓練。Anthropic 評估，相關客戶很可能不知道這項安排。（PDF 第149–150頁）",
+      "keypoint_count": 3,
+      "body_sha256": "2906076481aded90561fb427e91d89502b4ef552b0e4e1df2c54b6a1355b92c8",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-16006",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，智譜（Z.ai）取得 Claude 生成的推理文字，並讓 Claude 清理、評分與篩選訓練資料，也用它評量其他模型處理資安挑戰題的表現。在企業團隊安排的流程中，Claude 既生成資料，也協助檢查資料品質。（PDF 第150–151頁）",
+      "keypoint_count": 2,
+      "body_sha256": "7ff11c5839b7a10d4c8e06ae5d1fff507fdf15f26eb19c26fe61174ff1cafc00"
+    },
+    {
+      "id": "gtg-16008",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，小米保存 MiMo 客戶的舊對話與程式工作紀錄，再交給 Claude 產生訓練資料。報告描述 Claude 的工作包括整理多輪對話、重建開發環境、產生新問答及評判回答品質。（PDF 第151–152頁）",
+      "keypoint_count": 2,
+      "body_sha256": "82d668ba45db66d5707e826942d173fa7ba6fccfbf96bb6f176ae66932a24371",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-16012",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，商湯向第三方資料供應商購買 Claude 使用者的對話紀錄，用於模型訓練，並使用 Claude 協助編寫訓練流程的程式、啟動訓練及查看執行情況。（PDF 第152–153頁）",
+      "keypoint_count": 2,
+      "body_sha256": "01dd8a4f2cee96fc2ef3e98ec45f3be82863d1f0d9318be164e3e8a39a8f3eef",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "gtg-16003",
+      "kind": "case",
+      "lead": "Claude 的開發商與商業供應商 Anthropic 指稱，MiniMax 透過一家空殼公司經營模型轉接服務，該公司未揭露與母公司 MiniMax 的關係。客戶可透過該服務使用 Anthropic 與 OpenAI 的模型；Anthropic 推測，這項安排可能是為了蒐集對話供模型訓練。（PDF 第152–153頁）",
+      "keypoint_count": 2,
+      "body_sha256": "f7a865a3fb8040cef43ab5138a9818ed148a3832634e77f630f46347093b9f57",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "capability-and-outcome",
+      "kind": "guide",
+      "lead": "寫程式、修改模擬與整理申請書，是不同種類的工作。這三案讓我們看見 AI 如何參與實務流程，也讓我們分清各自完成到什麼階段。",
+      "keypoint_count": 2,
+      "body_sha256": "9bab2eb298e55ede5df95a1c46bb9b2eafe38f2e03be769d24ce3aa502f5e2a3",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "identity-and-trust",
+      "kind": "guide",
+      "lead": "熟悉的口吻、正式文件與持續互動，都可能讓人願意繼續交談。AI 可以協助維持這些表現；要看清風險，先分清誰設定身分、工具生成什麼，以及對方被要求做什麼。",
+      "keypoint_count": 2,
+      "body_sha256": "1db8c4e0d4d4f7b9b20304bf5e75be15805a3ec9b33497d6d11c92e8248140b8",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    },
+    {
+      "id": "personal-data",
+      "kind": "guide",
+      "lead": "活動公告、成員介紹與照片，原本散在不同地方。AI 可以協助翻譯、摘要、串連與分類，讓使用者更容易把資料整理成人物檔案。",
+      "keypoint_count": 2,
+      "body_sha256": "d36c27186afd4514a2b9e9c748b46cdfcae811914121ef57b9753372f953f989",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "延伸解讀"
+      }
+    },
+    {
+      "id": "public-opinion",
+      "kind": "guide",
+      "lead": "同一個政治立場，可以被 AI 改寫成許多口吻。讀這三個案例，先看人如何下指令、Claude 完成什麼，再看這些內容被放到哪裡。",
+      "keypoint_count": 2,
+      "body_sha256": "eecaa06fe9fddcc781ccf421d46b727fb819ddcec3e19a37db2639a63bf1ad75",
+      "editorial": {
+        "heading": "給台灣讀者的啟發",
+        "mode": "情境推演"
+      }
+    }
+  ]
+}

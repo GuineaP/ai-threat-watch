@@ -1,0 +1,7 @@
+---
+import type { Case } from '../lib/content';
+import { directLabel, pagesLabel } from '../lib/content';
+interface Props { entry: Case; }
+const { data } = Astro.props.entry;
+---
+<dl class="metadata"><dt>案例 ID</dt><dd>{data.id}</dd><dt>發布機構</dt><dd>{data.report.publisher}</dd><dt>原報告章節</dt><dd lang="en">{data.report.section}</dd><dt>原報告頁碼</dt><dd>{pagesLabel(data.report.pages)}</dd><dt>索引分類</dt><dd>{data.case_unit === 'main' ? '主要案例單元' : '內嵌補充案例'}</dd><dt>操作者</dt><dd>{data.actors?.operator || '未知｜待核對'}</dd><dt>委託者</dt><dd>{data.actors?.commissioner || '未知｜待核對'}</dd><dt>受益者</dt><dd>{data.actors?.beneficiary || '未知｜待核對'}</dd><dt>台灣直接相關</dt><dd>{directLabel(data.taiwan_relevance?.direct)}</dd><dt>台灣類比價值</dt><dd>{data.taiwan_relevance?.analogous || '待編輯者評估'}</dd>{data.source_group && <><dt>原文分組</dt><dd>與同組案例共用原報告節標題；本站保留獨立案例單元。</dd></>}</dl>

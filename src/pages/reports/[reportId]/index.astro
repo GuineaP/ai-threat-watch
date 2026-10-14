@@ -1,0 +1,10 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { allCases, counts } from '../../../lib/content';
+import { href } from '../../../lib/routes';
+export async function getStaticPaths(){return(await getCollection('reports')).map(report=>({params:{reportId:report.data.report_id},props:{report}}));}
+const { report }=Astro.props;
+const stats=counts((await allCases()).filter(e=>e.data.report.report_id===report.data.report_id));
+---
+<BaseLayout title={report.data.title_zh}><div class="wide"><header class="page-heading"><a class="back-link" href={href('/reports/')}>← 回報告來源</a><p class="eyebrow">{report.data.publisher} · {report.data.published_at}</p><h1>{report.data.title_zh}</h1><p lang="en">{report.data.title_en}</p></header><section class="report-card"><h2>本站整理的範圍</h2><p>{stats.indexed} 篇中文導讀：{stats.main} 個主要案例單元與 {stats.embedded} 個內嵌補充案例。案例數量不是發生率，也不是成功攻擊次數。</p><div class="text-links"><a href={href('/guides/')}>從生活問題開始 →</a><a href={href('/reports/'+report.data.report_id+'/cases/')}>查看全部案例 →</a></div></section><section class="section"><h2>七個原報告章節</h2><p>原報告的章節分類，與本站用來帶路的生活問題不同。</p><dl class="metadata">{report.data.sections.map(s=><><dt>{s.title_zh}</dt><dd>{s.main_case_count} 個主要案例單元</dd></>)}</dl></section><section class="section"><h2>回到原始來源</h2><p><a href={report.data.source.url!}>{report.data.source.title} ↗</a></p><p>{report.data.source.note}</p><p class="fine">官方 PDF 與本站10月4日版引用檔已於2026-10-05比對 SHA-256，內容相同。此版本核對不代表本站獨立驗證了報告的底層調查。</p></section></div></BaseLayout>
