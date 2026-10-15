@@ -71,7 +71,7 @@ scripts/verify-output.mjs   建置資料與輸出驗證
 
 ## 部署與原始碼
 
-網站輸出為靜態檔案，位於 `dist/`。2026-10-15正在遷移到不含個人帳號的 Cloudflare Pages 網址；專案已建立，尚未完成部署，不能把預定網址當作已上線。
+網站輸出為靜態檔案，位於 `dist/`。已於2026-10-15部署至 Cloudflare Pages，正式網址為 [ai-threat-watch-tw.pages.dev](https://ai-threat-watch-tw.pages.dev/)，不含個人帳號。此次採手動 Direct Upload；部署與驗證紀錄見 [Cloudflare Pages](docs/cloudflare-pages.md)。
 
 GitHub 用於保存原始碼與驗證。推送及PR會執行 `ci.yml` 的內容、建置與根／子路徑檢查。`deploy.yml` 只保留手動觸發，不會因推送原始碼而另外公開 GitHub Pages 網站。
 

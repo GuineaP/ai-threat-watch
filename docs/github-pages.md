@@ -1,3 +1,5 @@
+> 狀態更新（2026-10-15）：正式網站現使用 Cloudflare Pages：https://ai-threat-watch-tw.pages.dev/ 。本頁保留舊 GitHub Pages 設定供參考，已非現行部署策略；deploy.yml 僅可手動觸發，不會隨 main 推送發布。現行流程見 cloudflare-pages.md。
+
 # GitHub Pages 設定
 
 部署策略由 G 於 2026-09-12 確認：僅使用 GitHub Pages，不使用其他 hosting service，不設定 custom domain。
