@@ -85,6 +85,6 @@ GitHub 用於保存原始碼與驗證。推送及PR會執行 `ci.yml` 的內容�
 
 - [CONTRIBUTING](CONTRIBUTING.md)：第一階段接受 typo、失效連結、引用、事實與 metadata 修正；核心文章與台灣觀察由 G 決定。
 - [METHODOLOGY](METHODOLOGY.md)：四層證據、選案偏差與 AI 使用揭露。
-- [CONTENT_LICENSE](CONTENT_LICENSE.md)：本站內容、程式碼與第三方內容分開處理；授權尚待 G 決定。
+- 原創內容採 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hant)，原創網站程式碼採 [MIT](LICENSE)，允許分享、修改及商業使用。授權範圍與第三方材料說明見 [CONTENT_LICENSE](CONTENT_LICENSE.md)。
 
 原 PDF、全文抽取結果及大量第三方原圖不提交。AI 可能犯錯；重要資訊應回查原報告。
