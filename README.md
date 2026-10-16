@@ -71,9 +71,9 @@ scripts/verify-output.mjs   建置資料與輸出驗證
 
 ## 部署與原始碼
 
-網站輸出為靜態檔案，位於 `dist/`。已於2026-10-15部署至 Cloudflare Pages，正式網址為 [ai-threat-watch-tw.pages.dev](https://ai-threat-watch-tw.pages.dev/)，不含個人帳號。此次採手動 Direct Upload；部署與驗證紀錄見 [Cloudflare Pages](docs/cloudflare-pages.md)。
+網站輸出為靜態檔案，位於 `dist/`。已於2026-10-15部署至 Cloudflare Pages，正式網址為 [ai-threat-watch-tw.pages.dev](https://ai-threat-watch-tw.pages.dev/)，不含個人帳號。自動部署工作流程已加入 GitHub Actions；啟用狀態與部署紀錄見 [Cloudflare Pages](docs/cloudflare-pages.md)。
 
-GitHub 用於保存原始碼與驗證。推送及PR會執行 `ci.yml` 的內容、建置與根／子路徑檢查。`deploy.yml` 只保留手動觸發，不會因推送原始碼而另外公開 GitHub Pages 網站。
+GitHub 用於保存原始碼、驗證及觸發 Cloudflare 部署。設定 `CLOUDFLARE_API_TOKEN` Actions Secret 後，推送 `main` 會先完成內容、建置與根／子路徑檢查，再部署已驗證的根路徑產物至既有 Cloudflare 網站；PR 只檢查，不會部署。`deploy.yml` 保留手動 GitHub Pages 流程，不會隨推送執行。
 
 在一般靜態託管使用 `BASE_PATH=/`；若部署到子路徑，再依實際網址設定 `BASE_PATH`。只有已知正式網域時才設定 `SITE_URL`。`.github/workflows/deploy.yml` 是可選的 GitHub Pages 流程，啟用前需確認網址與受眾符合需求。
 

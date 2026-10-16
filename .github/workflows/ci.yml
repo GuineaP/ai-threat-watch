@@ -1,10 +1,14 @@
-name: Check and build
+name: Check, build and deploy
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: cloudflare-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,3 +29,51 @@ jobs:
         env:
           ASTRO_TELEMETRY_DISABLED: '1'
           BASE_PATH: ${{ matrix.base }}
+          SITE_URL: https://ai-threat-watch-tw.pages.dev
+      - name: Save verified production files
+        if: matrix.base == '/' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-production
+          path: dist/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 3
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      deployments: write
+    environment:
+      name: cloudflare-production
+      url: https://ai-threat-watch-tw.pages.dev
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check deployment credential
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo '::error::Add CLOUDFLARE_API_TOKEN in repository Settings > Secrets and variables > Actions. Use a Cloudflare token with Account > Cloudflare Pages > Edit, scoped to this account.'
+            exit 1
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Download verified production files
+        uses: actions/download-artifact@v4
+        with:
+          name: cloudflare-production
+          path: dist
+      - name: Deploy to existing Cloudflare Pages project
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 2b60165494ba6315ca7832729955f04d
+          command: pages deploy dist --project-name=ai-threat-watch-tw --branch=main --commit-hash=${{ github.sha }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify live site
+        run: node scripts/verify-live-deployment.mjs dist https://ai-threat-watch-tw.pages.dev
